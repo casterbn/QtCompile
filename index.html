@@ -1,50 +1,126 @@
-<html><head><title>Fsu0413's Qt Builds</title></head>
-<body>
-<h1>Disclaimer</h1>
-<p>These binaries are built by Fsu0413, and are totally untested, use in your own risk.
-<p>The code used is downloaded from <a href="http://download.qt.io">here</a>, I only made necessary changes to pass the build.
-<p>I have no responsibility that you mess up your things with this binaries.
-<p>
-<p>Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
-<p>
-<h1>Dynamic Builds</h1>
-<h2>Qt5.6.0</h2>
-<p>Source code is downloaded from <a href="http://download.qt.io/official_releases/qt/5.6/5.6.0/single/qt-everywhere-opensource-src-5.6.0.tar.xz">http://download.qt.io/official_releases/qt/5.6/5.6.0/single/qt-everywhere-opensource-src-5.6.0.tar.xz</a>
-<h3>Windows</h3>
-<p>Visual Studio 2015 SP2, ANGLE(es2)
-<p><a href="http://pan.baidu.com/s/1i4UqzDb">Qt5.6.0-Windows-x86-VS2015.7z</a>
-<p><a href="http://pan.baidu.com/s/1o7QI2dc">Qt5.6.0-Windows-x86_64-VS2015.7z</a>
-<p>MinGW-w64 from sf.net, ANGLE(es2), <font color="red">NO WEBENGINE</font>
-<p><a href="http://pan.baidu.com/s/1b4grFK">Qt5.6.0-Windows-x86-MinGW5.3.0.7z</a>
-<p><a href="http://pan.baidu.com/s/1dFiBJHJ">Qt5.6.0-Windows-x86_64-MinGW5.3.0.7z</a>
-<h3>Linux</h3>
-<p>Build host: Arch Linux, with "pacman -Syu" run before building
-<p><a href="http://pan.baidu.com/s/1bCnMFk">Qt5.6.0-linux-x86-gcc6.1.1.tar.xz</a>
-<p><a href="http://pan.baidu.com/s/1nvInnzb">Qt5.6.0-linux-x86_64-gcc6.1.1.tar.xz</a>
-<h3>Mac OS X</h3>
-<p>Using newest XCode in Mac OS X 10.11.5
-<p><a href="http://pan.baidu.com/s/1mh9lAdU">Qt5.6.0-MacOS-x86_64-clang-framework.tar.xz</a>&nbsp; Note: Framework build
-<p><a href="http://pan.baidu.com/s/1mi8fTlm">Qt5.6.0-MacOS-x86_64-clang.tar.xz</a>&nbsp; Note: No-Framework build
-<p>
-<h1>Static Builds</h1>
-<p>Note: Since static builds do not proceed the link process, it may lost some necessary dependencies. If you fall into Undefined Symbol error, please feel free to use the github issue.
-<p>NO WEBENGINE for static builds.
-<h2>Qt5.6.0</h2>
-<h3>Windows</h3>
-<p>Visual Studio 2015 SP2, ANGLE(es2)
-<p><a href="http://pan.baidu.com/s/1o8OWLlC">Qt5.6.0-Windows-x86-VS2015-S.7z</a>
-<p><a href="http://pan.baidu.com/s/1i532rjB">Qt5.6.0-Windows-x86_64-VS2015-S.7z</a>
-<p>MinGW-w64 from sf.net, ANGLE(es2)
-<p><a href="http://pan.baidu.com/s/1skYJOAx">Qt5.6.0-Windows-x86-MinGW5.3.0-S.7z</a>
-<p><a href="http://pan.baidu.com/s/1bplxAVH">Qt5.6.0-Windows-x86_64-MinGW5.3.0-S.7z</a>
-<h3>Linux</h3>
-<p>Build host: Arch Linux, with "pacman -Syu" run before building
-<p><a href="http://pan.baidu.com/s/1cuTfxs">Qt5.6.0-linux-x86-gcc6.1.1-S.tar.xz</a>
-<p><a href="http://pan.baidu.com/s/1nuYRYat">Qt5.6.0-linux-x86_64-gcc6.1.1-S.tar.xz</a>
-<h3>Mac OS X</h3>
-<p>Using newest XCode in Mac OS X 10.11.5
-<p><a href="http://pan.baidu.com/s/1gf2k0TX">Qt5.6.0-MacOS-x86_64-clang-S.tar.xz</a>
-<p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-</body>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Qtcompile by Fsu0413</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Qtcompile</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/Fsu0413/QtCompile/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/Fsu0413/QtCompile/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/Fsu0413/QtCompile" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disclaimer</h1>
+
+<p>These binaries are built by Fsu0413, and are totally untested, use in your own risk.</p>
+
+<p>The code used is downloaded from <a href="http://download.qt.io">here</a>, I only made necessary changes to pass the build.</p>
+
+<p>I have no responsibility that you mess up your things with this binaries.</p>
+
+<p>Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!</p>
+
+<h1>
+<a id="dynamic-builds" class="anchor" href="#dynamic-builds" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dynamic Builds</h1>
+
+<h2>
+<a id="qt560" class="anchor" href="#qt560" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Qt5.6.0</h2>
+
+<h3>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows</h3>
+
+<p>Visual Studio 2015 SP2, ANGLE(es2)</p>
+
+<p><a href="http://pan.baidu.com/s/1i4UqzDb">Qt5.6.0-Windows-x86-VS2015.7z</a></p>
+
+<p><a href="http://pan.baidu.com/s/1o7QI2dc">Qt5.6.0-Windows-x86_64-VS2015.7z</a></p>
+
+<p>MinGW-w64 from sf.net, ANGLE(es2), NO WEBENGINE</p>
+
+<p><a href="http://pan.baidu.com/s/1b4grFK">Qt5.6.0-Windows-x86-MinGW5.3.0.7z</a></p>
+
+<p><a href="http://pan.baidu.com/s/1dFiBJHJ">Qt5.6.0-Windows-x86_64-MinGW5.3.0.7z</a></p>
+
+<h3>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux</h3>
+
+<p>Build host: Arch Linux, with "pacman -Syu" run before building</p>
+
+<p><a href="http://pan.baidu.com/s/1bCnMFk">Qt5.6.0-linux-x86-gcc6.1.1.tar.xz</a></p>
+
+<p><a href="http://pan.baidu.com/s/1nvInnzb">Qt5.6.0-linux-x86_64-gcc6.1.1.tar.xz</a></p>
+
+<h3>
+<a id="mac-os-x" class="anchor" href="#mac-os-x" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac OS X</h3>
+
+<p>Using newest XCode in Mac OS X 10.11.5</p>
+
+<p><a href="http://pan.baidu.com/s/1mh9lAdU">Qt5.6.0-MacOS-x86_64-clang-framework.tar.xz</a> Note: Framework build</p>
+
+<p><a href="http://pan.baidu.com/s/1mi8fTlm">Qt5.6.0-MacOS-x86_64-clang.tar.xz</a> Note: No-Framework build</p>
+
+<h1>
+<a id="static-builds" class="anchor" href="#static-builds" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Static Builds</h1>
+
+<p>Note: Since static builds do not proceed the link process, it may lost some necessary dependencies. If you fall into Undefined Symbol error, please feel free to use the <a href="https://github.com/Fsu0413/QtCompile/issues">github issue</a>.</p>
+
+<p>NO WEBENGINE for static builds.</p>
+
+<h2>
+<a id="qt560-1" class="anchor" href="#qt560-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Qt5.6.0</h2>
+
+<h3>
+<a id="windows-1" class="anchor" href="#windows-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows</h3>
+
+<p>Visual Studio 2015 SP2, ANGLE(es2)</p>
+
+<p><a href="http://pan.baidu.com/s/1o8OWLlC">Qt5.6.0-Windows-x86-VS2015-S.7z</a></p>
+
+<p><a href="http://pan.baidu.com/s/1i532rjB">Qt5.6.0-Windows-x86_64-VS2015-S.7z</a></p>
+
+<p>MinGW-w64 from sf.net, ANGLE(es2)</p>
+
+<p><a href="http://pan.baidu.com/s/1skYJOAx">Qt5.6.0-Windows-x86-MinGW5.3.0-S.7z</a></p>
+
+<p><a href="http://pan.baidu.com/s/1bplxAVH">Qt5.6.0-Windows-x86_64-MinGW5.3.0-S.7z</a></p>
+
+<h3>
+<a id="linux-1" class="anchor" href="#linux-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux</h3>
+
+<p>Build host: Arch Linux, with "pacman -Syu" run before building</p>
+
+<p><a href="http://pan.baidu.com/s/1cuTfxs">Qt5.6.0-linux-x86-gcc6.1.1-S.tar.xz</a></p>
+
+<p><a href="http://pan.baidu.com/s/1nuYRYat">Qt5.6.0-linux-x86_64-gcc6.1.1-S.tar.xz</a></p>
+
+<h3>
+<a id="mac-os-x-1" class="anchor" href="#mac-os-x-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mac OS X</h3>
+
+<p>Using newest XCode in Mac OS X 10.11.5</p>
+
+<p><a href="http://pan.baidu.com/s/1gf2k0TX">Qt5.6.0-MacOS-x86_64-clang-S.tar.xz</a></p>
+      </section>
+    </div>
+
+    
+  </body>
 </html>
