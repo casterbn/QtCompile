@@ -11,9 +11,16 @@ I have no responsibility that you mess up your things with this binaries.
 Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
 
 ## 5.6 Series
-[5.6.0 Series](5.6.0-series.md)
+Since 5.6 series is LTS, so I will remain support until when Qt ends support of these packages.
 
 [5.6.1 Series](5.6.1-series.md)
 
 ## 5.7 Series
 [5.7.0-RC Series](5.7.0-RC-series.md)
+
+## Update
+
+### 2016.6.18
+Upload 5.6.1 VS2015 Static package.
+
+Removed 5.6.0 packages.
