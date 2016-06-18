@@ -16,11 +16,11 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 [5.6.1 Series](5.6.1-series.md)
 
 ## 5.7 Series
-[5.7.0-RC Series](5.7.0-RC-series.md)
+[5.7.0 Series](5.7.0-series.md)
 
 ## Update
 
 ### 2016.6.18
-Upload 5.6.1 VS2015 Static package.
-
+Upload 5.7.0 Linux packages.
 Removed 5.6.0 packages.
+Upload 5.6.1 VS2015 Static packages.
