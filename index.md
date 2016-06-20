@@ -20,6 +20,10 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 
 ## Update
 
+### 2016.6.19
+Upload 5.7.0 VS2015 Shared packages.
+Upload 5.7.0 Mac packages.
+
 ### 2016.6.18
 Upload 5.7.0 Linux packages.
 Removed 5.6.0 packages.
