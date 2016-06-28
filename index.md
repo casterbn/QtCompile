@@ -2,11 +2,11 @@
 
 ## Disclaimer
 
-These binaries are built by Fsu0413, and are totally untested, use in your own risk.
+These binaries built by Fsu0413 are __TOTALLY UNTESTED__, use in your own risk.
 
-The code used is downloaded from [here](http://download.qt.io), I only made necessary changes to pass the build.
+The code used is downloaded from [here](http://download.qt.io), I only made necessary changes to the source/generated makefile to pass the build.
 
-I have no responsibility that you mess up your things with this binaries.
+__THESE PACKAGE ARE PROVIDED "As is", I have no responsibility that you mess up your things with this binaries.__
 
 Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
 
@@ -23,6 +23,9 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 ### 2016.6.28
 Upload 5.7.0 Android(Linux x86_64 host) Shared packages.
 Upload 5.7.0 Android(macOS x86_64 host) Shared packages
+
+### 2016.6.27
+Update Disclaimer
 
 ### 2016.6.22
 Upload 5.7.0 VS2015 Static packages.
