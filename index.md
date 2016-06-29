@@ -13,6 +13,8 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 ## 5.6 Series
 Since 5.6 series is LTS, so I will remain support until when Qt ends support of these packages.
 
+Note: This is <font color=red>__not__</font> 5.6.1-1!!!!
+
 [5.6.1 Series](5.6.1-series.md)
 
 ## 5.7 Series
@@ -20,12 +22,15 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 
 ## Update
 
+### 2016.6.29
+Upload 5.7.0 Android(Windows x86_64 host) Shared packages.
+
 ### 2016.6.28
 Upload 5.7.0 Android(Linux x86_64 host) Shared packages.
-Upload 5.7.0 Android(macOS x86_64 host) Shared packages
+Upload 5.7.0 Android(macOS x86_64 host) Shared packages.
 
 ### 2016.6.27
-Update Disclaimer
+Update Disclaimer.
 
 ### 2016.6.22
 Upload 5.7.0 VS2015 Static packages.
