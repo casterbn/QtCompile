@@ -29,6 +29,9 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 
 ## Update
 
+### 2016.7.4
+Upload 5.6.1-1 VS2015 Static packages.
+
 ### 2016.7.3
 Upload 5.6.1-1 VS2015 Shared packages.
 Upload 5.6.1-1 MinGW Shared packages.
