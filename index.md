@@ -10,6 +10,15 @@ __THESE PACKAGE ARE PROVIDED "As is", I have no responsibility that you mess up 
 
 Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
 
+## Notes on the distributed compressed files
+
+Archive files on Windows host are compressed in 7z format using LZMA2 Algorithm, 7z users should update their 7z to 9.20 or later, WinRAR users should update their WinRAR to 4.00 or later, users of other compression softwares should make sure that LZMA2 is supported by your software. 
+
+Archive files on Linux use GNU tar. Archive files on macOS use bsdtar. They are called as:
+```
+tar -cJf xxx.tar.xz xxx/
+```
+
 ## 5.6 Series
 Since 5.6 series is LTS, so I will remain support until when Qt ends support of these packages.
 
@@ -26,6 +35,8 @@ Upload 5.6.1-1 MinGW Shared packages.
 Upload 5.6.1-1 Linux packages.
 Upload 5.6.1-1 macOS packages.
 Removed 5.6.1 packages.
+Upload 5.6.1-1 Android(Linux x86_64 host) Shared packages.
+Upload 5.6.1-1 Android(macOS x86_64 host) Shared packages.
 
 ### 2016.6.29
 Upload 5.7.0 Android(Windows x86_64 host) Shared packages.
