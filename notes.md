@@ -2,7 +2,10 @@
 
 ## Notes on the distributed compressed files
 
-Archive files on Windows host are compressed in 7z format using LZMA2 Algorithm, 7z users should update their 7z to 9.20 or later, WinRAR users should update their WinRAR to 4.00 or later, users of other compression softwares should make sure that LZMA2 is supported by your software. 
+Archive files on Windows host are compressed in 7z format using LZMA2 Algorithm,   
+7z users should update their 7z to 9.20 or later,   
+WinRAR users should update their WinRAR to 4.00 or later,   
+users of other compression softwares should make sure that LZMA2 is supported by your software. 
 
 Archive files on Linux use GNU tar. Archive files on macOS use bsdtar. They are called as:
 ```
