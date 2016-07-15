@@ -37,6 +37,8 @@ Update note to suit Qt4.
 
 Update note about QtBinPatcher.
 
+Upload 4.8.7 VS2010 Shared packages.
+
 ### 2016.7.4
 Upload 5.6.1-1 VS2015 Static packages.
 
