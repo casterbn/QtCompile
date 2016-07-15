@@ -39,7 +39,8 @@ Just click the button and the download will start.
 
 ## Notes for Qt Creator users
 
-Qt Creator should complain about the just uncompressed binary file, and says "Qt is not properly installed, please run _make install_" or something like this.
+Qt Creator should complain about the binary files which were just uncompressed from the tarball.  
+It should say "Qt is not properly installed, please run _make install_" or something like this.
 
 I redistributed a version of QtBinPatcher, you should run it to make Qt Creator running.
 
