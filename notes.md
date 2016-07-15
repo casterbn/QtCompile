@@ -2,6 +2,30 @@
 
 [Return to main page](index.md)
 
+## Notes on users of old-version Qt
+
+I only provide the prebuilt libraries of the latest version of each branch, older versions will get deleted soon after I release most of the packages of the new version.
+
+I don't know why they don't update to the newest version of Qt of the current branch (e.g, Qt 5.6.1-1 has released for more than half a month but quite a few users are still using 5.6.0).  
+
+For stability? compatibility? feel lazy for updating? or other reasons?
+
+1 Stability
+
+I think updating to the latest version of the same branch increases stability. Qt only does bug-fixes in minor releases. This is not a problem.
+
+2 Compatibility
+
+Binaries of the same major releases are compatible. It is no need to concern.
+
+3 Lazy
+
+Don't compare laziness with me. I feel lazy for comparing.
+
+4 Other reasons
+
+I have no idea if there is any other reasons.
+
 ## Notes on the distributed compressed files
 
 Archive files on Windows host are compressed in 7z format using LZMA2 Algorithm,   
