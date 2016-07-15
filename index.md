@@ -14,6 +14,9 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 [here](notes.md)
 
+## 4.8 Series
+[4.8.7 Series](4.8.7-series.md)
+
 ## 5.6 Series
 Since 5.6 series is LTS, so I will remain support until when Qt ends support of these packages.
 
@@ -23,6 +26,16 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 [5.7.0 Series](5.7.0-series.md)
 
 ## Update
+
+### 2016.7.15
+From now on, I will distribute the config.status(for Unix-like system) or configure.cache(for Windows) in the compressed packages.
+config.status contains all my commands when calling configure, while configure.cache only contains the parameters passed to configure.exe.
+
+Upload 4.8.7 VS2015 Shared packages. (And are the first and second packages which have configure.cache)
+
+Update note to suit Qt4.
+
+Update note about QtBinPatcher.
 
 ### 2016.7.4
 Upload 5.6.1-1 VS2015 Static packages.
