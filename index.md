@@ -27,6 +27,9 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 
 ## Update
 
+### 2016.7.17
+Upload all files to Mega.nz for users who are not in China.
+
 ### 2016.7.16
 Upload 4.8.7 macOS shared packages.
 
