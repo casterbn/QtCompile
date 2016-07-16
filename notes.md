@@ -43,13 +43,17 @@ tar -cJf xxx.tar.xz xxx/
 All Qt 5 builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
 Another reason is that Qt5 have depecrated WebKit, which depends on ICU.
 
-Windows/Android builds are using statically linked OpenSSL/LibreSSL.
+Using linked OpenSSL support except for Qt 5 builds on macOS.  
+macOS Qt 4 builds and Windows builds are using statically linked OpenSSL, Android builds are using statically linked LibreSSL, Linux builds are using dynamically linked system OpenSSL.  
+macOS Qt 5 builds are using SecureTransport instead of OpenSSL.
 
-No debug libs, which cuts more than a half of the size of the whole Qt library.
+No debug libs, which cuts more than a half of the size of the whole Qt package.
 
-No examples, which cuts more than a half of the size of the whole Qt library.
+No examples, which cuts more than a half of the size of the whole Qt package.
 
-No demos for Qt 4 builds, which cuts more than a half of the size of the whole Qt library.
+No demos for Qt 4 builds, which cuts more than a half of the size of the whole Qt package.
+
+No docs, since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
 
 Use ANGLE for OpenGL support in Windows Qt 5 builds instead of dynamically loading the OpenGL libs.
 

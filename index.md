@@ -27,6 +27,11 @@ Since 5.6 series is LTS, so I will remain support until when Qt ends support of 
 
 ## Update
 
+### 2016.7.16
+Upload 4.8.7 macOS shared packages.
+
+Upload 4.8.7 Linux shared packages.
+
 ### 2016.7.15
 From now on, I will distribute the config.status(for Unix-like system) or configure.cache(for Windows) in the compressed packages.
 config.status contains all my commands when calling configure, while configure.cache only contains the parameters passed to configure.exe.
