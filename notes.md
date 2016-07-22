@@ -2,6 +2,21 @@
 
 [Return to main page](index.md)
 
+## Notes on static builds
+
+I don't use static builds at all.
+
+I think it is not wise to use a static build.
+
+Maybe you just want to distribute a single portable executable binary file, but there is limitations:
+
+* It is not free of charge unless the program itself is a free software under (L)GPLv3.
+* A few modules of Qt does not compile. (Webengine, etc...)
+* Cannot use dynamically-linked plugin.
+* It is not linked at compile time, possibly causing linking problem afterwards.
+
+To be wise and stop using static builds. You'll fill liberated to make this change. Trust me.
+
 ## Notes on users of old-version Qt
 
 I only provide the prebuilt libraries of the latest version of each branch, older versions will get deleted soon after I release most of the packages of the new version.
@@ -10,20 +25,13 @@ I don't know why they don't update to the newest version of Qt of the current br
 
 For stability? compatibility? feel lazy for updating? or other reasons?
 
-1 Stability
-
+* Stability  
 I think updating to the latest version of the same branch increases stability. Qt only does bug-fixes in minor releases. This is not a problem.
-
-2 Compatibility
-
+* Compatibility  
 Binaries of the same major releases are compatible. It is no need to concern.
-
-3 Lazy
-
+* Lazy  
 Don't compare laziness with me. I feel lazy for comparing.
-
-4 Other reasons
-
+* Other reasons  
 I have no idea if there is any other reasons.
 
 ## Notes on the distributed compressed files
@@ -43,7 +51,7 @@ tar -cJf xxx.tar.xz xxx/
 All Qt 5 builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
 Another reason is that Qt5 have depecrated WebKit, which depends on ICU.
 
-Using linked OpenSSL support except for Qt 5 builds on macOS.  
+Using linked OpenSSL support except for Qt 5 builds on macOS and all static builds.  
 macOS Qt 4 builds and Windows builds are using statically linked OpenSSL, Android builds are using statically linked LibreSSL, Linux builds are using dynamically linked system OpenSSL.  
 macOS Qt 5 builds are using SecureTransport instead of OpenSSL.
 
@@ -73,3 +81,6 @@ It should say "Qt is not properly installed, please run _make install_" or somet
 I redistributed a version of QtBinPatcher, you should run it to make Qt Creator running.
 
 The source code of the distributed QtBinPatcher is on [Github](https://github.com/Fsu0413/QtBinPatcher). It is a free software and distributed in public domain.
+
+Do not put the library in a library which contains non-ascii character.   
+Bug will cause that the path of qmake cannot be properly parsed by Qt Creator.
