@@ -4,7 +4,7 @@
 
 ## Notes on static builds
 
-I don't use static builds at all.
+I don't use static builds in huge projects.
 
 I think it is not wise to use a static build.
 
@@ -15,13 +15,13 @@ Maybe you just want to distribute a single portable executable binary file, but 
 * Cannot use dynamically-linked plugin.
 * It is not linked at compile time, possibly causing linking problem afterwards.
 
-To be wise and stop using static builds. You'll fill liberated to make this change. Trust me.
+To be wise and stop using static builds in huge projects. You'll fill liberated to make this change. Trust me.
 
 ## Notes on users of old-version Qt
 
 I only provide the prebuilt libraries of the latest version of each branch, older versions will get deleted soon after I release most of the packages of the new version.
 
-I don't know why they don't update to the newest version of Qt of the current branch (e.g, Qt 5.6.1-1 has released for more than half a month but quite a few users are still using 5.6.0).  
+I don't know why they don't update to the newest version of Qt of the current branch (e.g, Qt 5.6.1-1, as the time of writing, has released for more than half a month but quite a few users are still using 5.6.0).  
 
 For stability? compatibility? feel lazy for updating? or other reasons?
 
@@ -52,7 +52,7 @@ All Qt 5 builds here have been configured with -no-icu, because I thought that t
 Another reason is that Qt5 have depecrated WebKit, which depends on ICU.
 
 Using linked OpenSSL support except for Qt 5 builds on macOS and all static builds.  
-macOS Qt 4 builds and Windows builds are using statically linked OpenSSL, Android builds are using statically linked LibreSSL, Linux builds are using dynamically linked system OpenSSL.  
+macOS Qt 4 builds and Windows builds are using statically linked OpenSSL, Android builds are using statically linked OpenSSL.  
 macOS Qt 5 builds are using SecureTransport instead of OpenSSL.
 
 No debug libs, which cuts more than a half of the size of the whole Qt package.
@@ -78,9 +78,9 @@ Just click the button and the download will start.
 Qt Creator should complain about the binary files which were just uncompressed from the tarball.  
 It should say "Qt is not properly installed, please run _make install_" or something like this.
 
-I redistributed a version of QtBinPatcher, you should run it to make Qt Creator running.
+I redistributed a version of QQtPatcher, you should run it to make Qt Creator running.
 
-The source code of the distributed QtBinPatcher is on [Github](https://github.com/Fsu0413/QtBinPatcher). It is a free software and distributed in public domain.
+The source code of the distributed QQtPatcher is on [Github](https://github.com/Fsu0413/QQtPatcher). It is a free software and distributed in public domain.
 
 Do not put the library in a library which contains non-ascii character.   
 Bug will cause that the path of qmake cannot be properly parsed by Qt Creator.

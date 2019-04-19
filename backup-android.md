@@ -1,14 +1,14 @@
-# 5.7.0 Series for Android
+# 5.6.3 Series for Android
 
-[Return to 5.7.0 Series](5.7.0-series.md)
+[Return to 5.6.3 Series](5.6.3-series.md)
 
 Note: SQLite(distributed with Qt) are built in the backage and have -plugin-sql-sqlite
 
-Note: All packages have -openssl-linked, Since BoringSSL, which is used in Android 6.0 or later, is NOT API COMPATIBLE WITH OPENSSL, we link it to a static LibreSSL instead of system SSL library. 
+Note: All packages have -openssl-linked, Since BoringSSL, which is used in Android 6.0 or later, is NOT API COMPATIBLE WITH OPENSSL, we link it to a static OpenSSL instead of system SSL library. 
 
 Note: All builds have -no-icu because I think the ICU library is too big and, in most of the conditions, useless for common users.
 
-Note: All builds are using SDK API Level 21 along with NDK r12b with -android-ndk-platform android-21, it means the APK built using these packages may be not able to run on Android 4.4.x and earlier.
+Note: All builds are using NDK r10e with -android-ndk-platform android-9, it means the APK built using these packages may be not able to run on Android 2.3.x and earlier.
 
 ## Dynamic Builds
 
