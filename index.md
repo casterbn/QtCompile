@@ -27,14 +27,17 @@ Qt 5.6 LTS is EOL as of March, 2019.
 ## 5.9 Series
 Since 5.9 series is LTS, so I will remain support until when Qt ends support of these packages.
 
-~~[5.9.8 Series](5.9.8-series.md)~~(Not finished)
+[5.9.8 Series](5.9.8-series.md)
 
 ## 5.12 Series
 Since 5.12 series is LTS, so I will remain support until when Qt ends support of these packages.
 
-~~[5.12.3 Series](5.12.3-series.md)~~(Not finished)
+[5.12.3 Series](5.12.3-series.md)
 
 ## Update
+
+### 2019.4.20
+Finish 5.9.8 and 5.12.3 series.
 
 ### 2019.4.19
 Removed All old packages.

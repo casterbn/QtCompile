@@ -4,9 +4,7 @@
 
 ## Notes on static builds
 
-I don't use static builds in huge projects.
-
-I think it is not wise to use a static build.
+I don't use static builds in huge projects. I think it is not wise to use a static build there.
 
 Maybe you just want to distribute a single portable executable binary file, but there is limitations:
 
@@ -16,6 +14,13 @@ Maybe you just want to distribute a single portable executable binary file, but 
 * It is not linked at compile time, possibly causing linking problem afterwards.
 
 To be wise and stop using static builds in huge projects. You'll fill liberated to make this change. Trust me.
+
+## Static `Lite` Builds and Static `Full` Builds
+
+Static `lite` builds skipped most of Qt modules, only QtCore, QtDeclarative(QtQml 2), QtXmlPatterns and QtXXXExtras are built.  
+It is useful for people who wants to build the QtIFW without building a full static Qt.
+
+Static `full` builds don't skip most of Qt modules, only skip modules which will cause compile failure.
 
 ## Notes on users of old-version Qt
 
@@ -62,16 +67,6 @@ No examples, which cuts more than a half of the size of the whole Qt package.
 No demos for Qt 4 builds, which cuts more than a half of the size of the whole Qt package.
 
 No docs, since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
-
-Use ANGLE for OpenGL support in Windows Qt 5 builds instead of dynamically loading the OpenGL libs.
-
-## Notes for downloading file from Baidu Netdisk for users who don't recognize Chinese
-
-The download page of Baidu Netdisk looks like below:
-
-![pic](baidu_netdisk.png)
-
-Just click the button and the download will start.
 
 ## Notes for Qt Creator users
 
