@@ -1,0 +1,29 @@
+-prefix
+D:\Qt\Qt5.12.3-Windows-x86_64-MinGW-GCC7.3.0
+-opensource
+-shared
+-release
+-confirm-license
+-platform
+win32-g++
+-pch
+-nomake
+examples
+-nomake
+tests
+-no-compile-examples
+-qt-doubleconversion
+-qt-zlib
+-qt-pcre
+-no-icu
+-opengl
+dynamic
+-ssl
+-openssl-linked
+-I
+D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-MinGW-GCC7.3.0\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-MinGW-GCC7.3.0\lib\libssl.dll.a  D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-MinGW-GCC7.3.0\lib\libcrypto.dll.a
+-sql-sqlite
+-sql-odbc
+-make-tool
+mingw32-make -j10
