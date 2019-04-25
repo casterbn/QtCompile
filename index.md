@@ -36,6 +36,9 @@ Since 5.12 series is LTS, so I will remain support until when Qt ends support of
 
 ## Update
 
+### 2019.4.22
+Upload 5.9.8 and 5.12.3 VS2015 packages.
+
 ### 2019.4.20
 Finish 5.9.8 and 5.12.3 series.
 
@@ -43,7 +46,6 @@ Finish 5.9.8 and 5.12.3 series.
 Removed All old packages.
 
 Upload new packages built since Mar, 2019.
-
 
 ### black history
 [here](black_history.md)
