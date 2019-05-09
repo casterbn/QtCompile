@@ -1,0 +1,2 @@
+#!/bin/sh
+exec ../../qt-everywhere-opensource-src-5.9.8/configure -redo "$@"
