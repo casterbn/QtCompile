@@ -17,7 +17,13 @@ tests
 -qt-pcre
 -no-icu
 -no-opengl
--no-ssl
+-ssl
+-openssl-linked
+-I
+D:\Qt\OpenSSL1.0.2r-Windows-x86-VS2010-static\include
+-L
+D:\Qt\OpenSSL1.0.2r-Windows-x86-VS2010-static\lib
+OPENSSL_LIBS=ssleay32.lib libeay32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -skip
 qt3d
 -skip

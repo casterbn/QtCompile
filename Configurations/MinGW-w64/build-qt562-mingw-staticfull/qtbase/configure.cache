@@ -20,9 +20,9 @@ tests
 es2
 -angle
 -ssl
+-openssl-linked
 -I
 D:\Qt\OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4\include
--openssl-linked
 OPENSSL_LIBS=-LD:/Qt/OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4/lib -lssl -lcrypto -luser32 -lgdi32 -lwsock32 -lws2_32
 -plugin-sql-sqlite
 -plugin-sql-odbc

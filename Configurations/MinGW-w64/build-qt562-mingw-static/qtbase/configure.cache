@@ -17,7 +17,11 @@ tests
 -qt-pcre
 -no-icu
 -no-opengl
--no-ssl
+-ssl
+-openssl-linked
+-I
+D:\Qt\OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4\include
+OPENSSL_LIBS=-LD:/Qt/OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4/lib -lssl -lcrypto -luser32 -lgdi32 -lwsock32 -lws2_32
 -skip
 qt3d
 -skip

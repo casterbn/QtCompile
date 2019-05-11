@@ -19,7 +19,13 @@ tests
 -qt-pcre
 -no-icu
 -no-opengl
--no-ssl
+-ssl
+-openssl-linked
+-I
+D:\Qt\OpenSSL1.1.1b-2-Windows-x86-VS2015-static\include
+-L
+D:\Qt\OpenSSL1.1.1b-2-Windows-x86-VS2015-static\lib
+OPENSSL_LIBS=libssl.lib libcrypto.lib advapi32.lib Crypt32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -make-tool
 jom
 -skip
