@@ -1,5 +1,5 @@
 -prefix
-D:\Qt\Qt5.6.3-Windows-x86-64-VS2015
+D:\Qt\Qt5.6.3-Windows-x86_64-VS2015
 -opensource
 -shared
 -release
