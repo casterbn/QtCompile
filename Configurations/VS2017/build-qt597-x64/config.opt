@@ -1,5 +1,5 @@
 -prefix
-D:\Qt\Qt5.9.8-Windows-x86_64-VS2017-15.9.11
+D:\Qt\Qt5.9.8-Windows-x86_64-VS2017-15.9.12
 -opensource
 -shared
 -release
@@ -21,8 +21,8 @@ dynamic
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.11\include
-OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.11\lib\ssleay32.lib D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.11\lib\libeay32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
+D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.12\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.12\lib\ssleay32.lib D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2017-15.9.12\lib\libeay32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -sql-sqlite
 -sql-odbc
 -make-tool

@@ -1,5 +1,5 @@
 -prefix
-D:\Qt\Qt5.12.3-Windows-x86_64-VS2019-16.0.3
+D:\Qt\Qt5.12.3-Windows-x86_64-VS2019-16.0.4
 -opensource
 -shared
 -release
@@ -21,8 +21,8 @@ dynamic
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.3\include
-OPENSSL_LIBS=D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.3\lib\libssl.lib D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.3\lib\libcrypto.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
+D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.4\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.4\lib\libssl.lib D:\Qt\OpenSSL1.1.1b-2-Windows-x86_64-VS2019-16.0.4\lib\libcrypto.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -sql-sqlite
 -sql-odbc
 -make-tool
