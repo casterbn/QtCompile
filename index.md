@@ -14,10 +14,14 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 [here](notes.md)
 
+## Current build status
+
+[here](status.md)
+
 ## 4.8 Series
 Qt 4.8 is EOL as of December, 2015.
 
-~~[4.8.7 Series](4.8.7-series.md)~~(Not maintained as of 2019.4.19)
+[4.8.7 Series](4.8.7-series.md)
 
 ## 5.6 Series
 Qt 5.6 LTS is EOL as of March, 2019.
@@ -35,6 +39,10 @@ Since 5.12 series is LTS, so I will remain support until when Qt ends support of
 [5.12.3 Series](5.12.3-series.md)
 
 ## Update
+
+### 2019.5.15
+Windows packages rebuilt with updated configurations.
+Since SF.net can't be accessed using China Telecom in Dalian, China, the files are reuploaded to OSDN.
 
 ### 2019.4.22
 Upload 5.9.8 and 5.12.3 VS2015 packages.
