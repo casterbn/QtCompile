@@ -5,7 +5,7 @@
 -release
 -confirm-license
 -platform
-win32-g++
+linux-g++
 -xplatform
 android-g++
 -nomake
