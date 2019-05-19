@@ -18,6 +18,10 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 [here](status.md)
 
+## Current Failures
+
+[here](failures.md)
+
 ## 4.8 Series
 Qt 4.8 is EOL as of December, 2015.
 

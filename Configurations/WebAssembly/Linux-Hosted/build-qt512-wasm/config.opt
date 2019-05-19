@@ -21,4 +21,4 @@ es2
 -no-ssl
 -sql-sqlite
 -make-tool
-make -j7
+make -j8
