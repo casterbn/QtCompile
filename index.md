@@ -44,6 +44,13 @@ Since 5.12 series is LTS, so I will remain support until when Qt ends support of
 
 ## Update
 
+### 2019.5.19
+Linux hosted Android packages rebuilt with updated configurations.
+Upload Linux hosted WebAssembly package(No 's'...)
+Since SF.net reworked, the files are reuploaded to SF.net.
+
+(Why can't I use SFTP to manage the files on OSDN?????)
+
 ### 2019.5.15
 Windows packages rebuilt with updated configurations.
 Since SF.net can't be accessed using China Telecom in Dalian, China, the files are reuploaded to OSDN.
