@@ -44,6 +44,9 @@ Since 5.12 series is LTS, so I will remain support until when Qt ends support of
 
 ## Update
 
+### 2019.5.26
+Rebuild VS2017/VS2019 packages with update VS version.
+
 ### 2019.5.19
 Linux hosted Android packages rebuilt with updated configurations.
 Upload Linux hosted WebAssembly package(No 's'...)
