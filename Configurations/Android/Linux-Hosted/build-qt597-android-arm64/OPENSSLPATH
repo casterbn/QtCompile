@@ -1,1 +1,1 @@
-OPENSSL_LIBS="/home/root/OpenSSL1.0.2r-AndroidAPI21-arm64/lib/libssl.a /home/root/OpenSSL1.0.2r-AndroidAPI21-arm64/lib/libcrypto.a"
+OPENSSL_LIBS="/home/root/OpenSSL1.0.2s-AndroidAPI21-arm64/lib/libssl.a /home/root/OpenSSL1.0.2s-AndroidAPI21-arm64/lib/libcrypto.a"

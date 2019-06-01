@@ -22,7 +22,7 @@ es2
 -ssl
 -openssl-linked
 -I
-/home/root/OpenSSL1.1.1b-2-AndroidAPI21-x86/include/
+/home/root/OpenSSL1.1.1c-AndroidAPI21-x86/include/
 -sql-sqlite
 -make-tool
 gmake -j8

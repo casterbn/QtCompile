@@ -18,9 +18,9 @@ win32-g++
 -script 
 -webkit 
 -opensource 
-OPENSSL_LIBS=D:\\Qt\\OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4\\lib\\libssl.dll.a D:\\Qt\\OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4\\lib\\libcrypto.dll.a -luser32 -lgdi32 -lwsock32 -lws2_32 
+OPENSSL_LIBS=D:\\Qt\\OpenSSL1.0.2s-Windows-x86-MinGW-GCC4.9.4\\lib\\libssl.dll.a D:\\Qt\\OpenSSL1.0.2s-Windows-x86-MinGW-GCC4.9.4\\lib\\libcrypto.dll.a -luser32 -lgdi32 -lwsock32 -lws2_32 
 -I 
-D:\Qt\OpenSSL1.0.2r-Windows-x86-MinGW-GCC4.9.4\include 
+D:\Qt\OpenSSL1.0.2s-Windows-x86-MinGW-GCC4.9.4\include 
 -prefix 
 D:\Qt\Qt4.8.7-Windows-x86-MinGW-GCC4.9.4 
 -nomake 

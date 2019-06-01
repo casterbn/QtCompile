@@ -21,8 +21,8 @@ es2
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.0.2r-AndroidAPI9-x86\include
-OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2r-AndroidAPI9-x86\lib\libssl.a D:\Qt\OpenSSL1.0.2r-AndroidAPI9-x86\lib\libcrypto.a
+D:\Qt\OpenSSL1.0.2s-AndroidAPI9-x86\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2s-AndroidAPI9-x86\lib\libssl.a D:\Qt\OpenSSL1.0.2s-AndroidAPI9-x86\lib\libcrypto.a
 -plugin-sql-sqlite
 -android-sdk
 D:\android-sdk-windows-10111618

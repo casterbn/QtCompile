@@ -22,8 +22,8 @@ es2
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.1.1b-2-AndroidAPI21-arm64\include
-OPENSSL_LIBS=D:\Qt\OpenSSL1.1.1b-2-AndroidAPI21-arm64\lib\libssl.a D:\Qt\OpenSSL1.1.1b-2-AndroidAPI21-arm64\lib\libcrypto.a
+D:\Qt\OpenSSL1.1.1c-AndroidAPI21-arm64\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.1.1c-AndroidAPI21-arm64\lib\libssl.a D:\Qt\OpenSSL1.1.1c-AndroidAPI21-arm64\lib\libcrypto.a
 -sql-sqlite
 -make-tool
 mingw32-make -j13

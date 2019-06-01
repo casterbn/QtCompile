@@ -20,7 +20,7 @@ dynamic
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2015\include
-OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2015\lib\ssleay32.lib D:\Qt\OpenSSL1.0.2r-Windows-x86_64-VS2015\lib\libeay32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
+D:\Qt\OpenSSL1.0.2s-Windows-x86_64-VS2015\include
+OPENSSL_LIBS=D:\Qt\OpenSSL1.0.2s-Windows-x86_64-VS2015\lib\ssleay32.lib D:\Qt\OpenSSL1.0.2s-Windows-x86_64-VS2015\lib\libeay32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -plugin-sql-sqlite
 -plugin-sql-odbc
