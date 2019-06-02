@@ -26,6 +26,8 @@ D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.12-static\include
 -L
 D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.12-static\lib
 OPENSSL_LIBS=libssl.lib libcrypto.lib advapi32.lib Crypt32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
+-sql-sqlite
+-sql-odbc
 -make-tool
 jom
 -skip
