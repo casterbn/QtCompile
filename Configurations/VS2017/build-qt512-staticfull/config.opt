@@ -1,5 +1,5 @@
 -prefix
-D:\Qt\Qt5.12.3-Windows-x86-VS2017-15.9.12-staticFull
+D:\Qt\Qt5.12.4-Windows-x86-VS2017-15.9.13-staticFull
 -opensource
 -static
 -release
@@ -24,9 +24,9 @@ es2
 -ssl
 -openssl-linked
 -I
-D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.12-static\include
+D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.13-static\include
 -L
-D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.12-static\lib
+D:\Qt\OpenSSL1.1.1c-Windows-x86-VS2017-15.9.13-static\lib
 OPENSSL_LIBS=libssl.lib libcrypto.lib advapi32.lib Crypt32.lib user32.lib gdi32.lib wsock32.lib ws2_32.lib
 -sql-sqlite
 -sql-odbc

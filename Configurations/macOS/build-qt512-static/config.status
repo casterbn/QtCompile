@@ -1,2 +1,2 @@
 #!/bin/sh
-exec ../../qt-everywhere-src-5.12.3/configure -redo "$@"
+exec ../../qt-everywhere-src-5.12.4/configure -redo "$@"

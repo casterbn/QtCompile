@@ -1,1 +1,1 @@
-..\qt-everywhere-src-5.12.3\configure.bat -redo %*
+..\qt-everywhere-src-5.12.4\configure.bat -redo %*

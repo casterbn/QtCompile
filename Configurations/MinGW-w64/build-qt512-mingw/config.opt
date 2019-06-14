@@ -1,5 +1,5 @@
 -prefix
-D:\Qt\Qt5.12.3-Windows-x86-MinGW-GCC7.3.0
+D:\Qt\Qt5.12.4-Windows-x86-MinGW-GCC7.3.0
 -opensource
 -shared
 -release
