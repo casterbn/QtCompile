@@ -42,10 +42,55 @@ Build Hosts:
 |5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|
 |5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|
 |5.12.3|win32-msvc|Windows Server 2008 R2 SP1|VS2015 Update 3|
-|5.12.3|win32-msvc|Windows 10 10.0.17763|VS2017 15.9.11|
+|5.12.3|win32-msvc|Windows 10 10.0.18362|VS2017 15.9.13|
 |5.12.3|macx-clang|macOS 10.14|AppleClang 10.0|
 |5.12.3|linux-g++|CentOS 7.6|GCC 4.8.5|
 |5.12.3|linux-g++|Ubuntu 16.04|GCC 5.4.0|
+
+## OpenSSL Status
+
+My builds is with OpenSSL-linked for most platforms.  
+Here is a list of OpenSSL builds of mine.
+
+Note:   
+OpenSSL 1.0.2 series is only for Qt 4.8.7 for macOS. For Qt5 we are using SecureTransport.  
+MinGW builds is "-shared-and-static" so no need to build a seprate static version.
+
+| OpenSSL Version | Platform | Build Host | Compiler Version | Architecture | Variant |
+|-|
+|1.0.2r|Windows|Windows XP SP3|VS2010 SP1|x86||
+|1.0.2r|Windows|Windows XP SP3|VS2010 SP1|x86|-static|
+|1.0.2r|Windows|Windows XP SP3|MinGW 4.9.4|x86||
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86|-xp|
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86|-xp, -static|
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86_64||
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|MinGW 4.9.4|x86_64||
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
+|1.0.2r|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
+|1.0.2r|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86||
+|1.0.2r|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64||
+|1.0.2r|macOS|OS X 10.10|AppleCalng 6.1|x86_64||
+|1.0.2r|Android|CentOS 7.6|ndk r10e|arm|9|
+|1.0.2r|Android|CentOS 7.6|ndk r10e|arm|16|
+|1.0.2r|Android|CentOS 7.6|ndk r10e|arm64|21|
+|1.0.2r|Android|CentOS 7.6|ndk r10e|x86|9|
+|1.0.2r|Android|CentOS 7.6|ndk r10e|x86|16|
+|1.1.1b-2|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86||
+|1.1.1b-2|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86|-static|
+|1.1.1b-2|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86_64||
+|1.1.1b-2|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
+|1.1.1b-2|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86||
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86|-static|
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64||
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64|-static|
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2019 16.1.4|x86||
+|1.1.1b-2|Windows|Windows 10 10.0.18362|VS2019 16.1.4|x86_64||
+|1.1.1b-2|Android|CentOS 7.6|ndk r19c|arm|21|
+|1.1.1b-2|Android|CentOS 7.6|ndk r19c|arm64|21|
+|1.1.1b-2|Android|CentOS 7.6|ndk r19c|x86|21|
+
 
 ## Qt 4.8.7 Series
 
@@ -73,7 +118,7 @@ Build Hosts:
 |macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload|√|
-|Android|Windows 10 10.0.17763|ndk r10e|arm||android-g++|√|√|
+|Android|Windows 10 10.0.18362|ndk r10e|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|CentOS 7.6|↑|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
@@ -86,13 +131,13 @@ Build Hosts:
 |-|
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.17763|VS2017 15.9.11|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang||√|
-|Android|Windows 10 10.0.17763|ndk r10e|arm||android-g++|√|√|
+|Android|Windows 10 10.0.18362|ndk r10e|arm||android-g++|√|√|
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|CentOS 7.6|↑|arm||android-g++|√|√|
@@ -109,12 +154,12 @@ Build Hosts:
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.17763|VS2017 15.9.11|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
-|↑|↑|VS2019 16.0.3|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.1.4|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
@@ -123,7 +168,7 @@ Build Hosts:
 |macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload|√|
-|Android|Windows 10 10.0.17763|ndk r19c|arm||android-clang|√|√|
+|Android|Windows 10 10.0.18362|ndk r19c|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|CentOS 7.6|↑|arm||android-clang|√|√|
@@ -143,15 +188,15 @@ Qt 5.13.0 will release in May.
 |-|
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|||
 |↑|↑|↑|x86_64||win32-msvc|||
-|↑|Windows 10 10.0.17763|VS2017 15.9.11|x86||win32-msvc|||
+|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|||
 |↑|↑|↑|x86_64||win32-msvc|||
-|↑|↑|VS2019 16.0.3|x86||win32-msvc|||
+|↑|↑|VS2019 16.1.4|x86||win32-msvc|||
 |↑|↑|↑|x86_64||win32-msvc|||
 |↑|↑|MinGW 7.3.0|x86||win32-g++|||
 |↑|↑|↑|x86_64||win32-g++|||
 |macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang|||
 |↑|↑|↑|x86_64|-no-framework|macx-clang|||
-|Android|Windows 10 10.0.17763|ndk r19c|arm||android-clang|||
+|Android|Windows 10 10.0.18362|ndk r19c|arm||android-clang|||
 |↑|↑|↑|arm64||android-clang|||
 |↑|↑|↑|x86||android-clang|||
 |↑|CentOS 7.6|↑|arm||android-clang|||
@@ -160,7 +205,7 @@ Qt 5.13.0 will release in May.
 |↑|macOS 10.14|↑|arm||android-clang|||
 |↑|↑|↑|arm64||android-clang|||
 |↑|↑|↑|x86||android-clang|||
-|WebAssembly|Windows 10 10.0.17763|emscripten-1.38.27|-||wasm-emscripten|||
+|WebAssembly|Windows 10 10.0.18362|emscripten-1.38.27|-||wasm-emscripten|||
 |↑|Ubuntu 16.04|↑|-||wasm-emscripten|||
 |↑|macOS 10.14|↑|-||wasm-emscripten|||
 
