@@ -39,10 +39,19 @@ Since 5.9 series is LTS, so I will remain support until when Qt ends support of 
 
 ## 5.12 Series
 Since 5.12 series is LTS, so I will remain support until when Qt ends support of these packages.
+Static builds are built until next LTS released.
 
 [5.12.4 Series](5.12.4-series.md)
 
+## 5.13 Series
+5.13 series is not LTS, thus no static builds.
+
+[5.13.0 Series](5.13.0-series.md)
+
 ## Update
+
+### 2019.7.6
+Windows packages are updated to Qt 5.13.0.
 
 ### 2019.7.5
 Rebuild Windows packages with OpenSSL 1.1.1c and 1.0.2s.
