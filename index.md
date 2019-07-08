@@ -1,10 +1,10 @@
-# Fsu0413's Qt builds
+# Fsu0413's Original Qt builds
 
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
 
-The code used is downloaded from [here](http://download.qt.io), I only made necessary changes to the source/generated makefile to pass the build.
+The code used is downloaded from [here](http://download.qt.io), I made no changes to the source/generated files.
 
 __THESE PACKAGE ARE PROVIDED "As is", I have no responsibility that you mess up your things with this binaries.__
 
@@ -57,7 +57,7 @@ Static builds are built until next LTS released.
 ## Update
 
 ### 2019.7.8
-Android packages are updated to Qt 5.12.4 and Qt 5.13.0.
+Android packages are updated to Qt 5.12.4 and Qt 5.13.0. <font color=red>__Used NDK r19c, although the file name is r20__</font>
 Rebuild Android packages with OpenSSL 1.1.1c and 1.0.2s.
 Page links to Android/Wasm packages are put into main page instead of the "XXX-series" pages.
 
