@@ -53,7 +53,7 @@ My builds is with OpenSSL-linked for most platforms.
 Here is a list of OpenSSL builds of mine.
 
 Note:   
-OpenSSL 1.0.2 series is only for Qt 4.8.7 for macOS. For Qt5 we are using SecureTransport.  
+OpenSSL 1.0.2 series on macOS is only for Qt 4.8.7. For Qt5 we are using SecureTransport.  
 MinGW builds is "-shared-and-static" so no need to build a seprate static version.
 
 | OpenSSL Version | Platform | Build Host | Compiler Version | Architecture | Variant |

@@ -13,7 +13,7 @@ Maybe you just want to distribute a single portable executable binary file, but 
 * Cannot use dynamically-linked plugin.
 * It is not linked at compile time, possibly causing linking problem afterwards.
 
-To be wise and stop using static builds in huge projects. You'll fill liberated to make this change. Trust me.
+To be wise and stop using static builds in huge projects. You'll feel liberated to make this change. Trust me.
 
 ## Static `Lite` Builds and Static `Full` Builds
 
@@ -24,9 +24,9 @@ Static `full` builds don't skip most of Qt modules, only skip modules which will
 
 ## Notes on users of old-version Qt
 
-I only provide the prebuilt libraries of the latest version of each branch, older versions will get deleted soon after I release most of the packages of the new version.
+I only provide the prebuilt libraries of the latest version of each major release/LTS release, older non-LTS versions will get deleted soon after I release most of the packages of the new version.
 
-I don't know why they don't update to the newest version of Qt of the current branch (e.g, Qt 5.6.1-1, as the time of writing, has released for more than half a month but quite a few users are still using 5.6.0).  
+I don't know why they don't update to the newest version of Qt of the current branch (e.g, Qt 5.6.1-1, at the time of writing, has released for more than half a month but quite a few users are still using 5.6.0).  
 
 For stability? compatibility? feel lazy for updating? or other reasons?
 
@@ -53,12 +53,12 @@ tar -cJf xxx.tar.xz xxx/
 
 ## Difference of this Qt and offically distributed Qt
 
-All Qt 5 builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
-Another reason is that Qt5 have depecrated WebKit, which depends on ICU.
+All Qt builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
 
-Using linked OpenSSL support except for Qt 5 builds on macOS and all static builds.  
-macOS Qt 4 builds and Windows builds are using statically linked OpenSSL, Android builds are using statically linked OpenSSL.  
+Using linked OpenSSL support for most packages.
+macOS Qt 4 builds and Windows Qt 4/5 builds before 5.12 are using linked OpenSSL to dynamic(shared) libraries, Android builds are using statically linked OpenSSL.  
 macOS Qt 5 builds are using SecureTransport instead of OpenSSL.
+Windows Qt 5 builds after 5.13 are using SChannel instead of OpenSSL.
 
 No debug libs, which cuts more than a half of the size of the whole Qt package.
 
@@ -66,7 +66,7 @@ No examples, which cuts more than a half of the size of the whole Qt package.
 
 No demos for Qt 4 builds, which cuts more than a half of the size of the whole Qt package.
 
-No docs, since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
+No docs (and no QDoc for Qt 5.12 and later since it depends on Clang), since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
 
 ## Notes for Qt Creator users
 

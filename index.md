@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-These binaries built by Fsu0413 are __TOTALLY UNTESTED__, use in your own risk.
+These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
 
 The code used is downloaded from [here](http://download.qt.io), I only made necessary changes to the source/generated makefile to pass the build.
 
