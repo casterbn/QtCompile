@@ -18,37 +18,48 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 [here](status.md)
 
-## Current Failures
-
-[here](failures.md)
-
 ## 4.8 Series
 Qt 4.8 is EOL as of December, 2015.
 
-[4.8.7 Series](4.8.7-series.md)
+[4.8.7 for Windows](4.8.7-series.md)
 
 ## 5.6 Series
 Qt 5.6 LTS is EOL as of March, 2019.
 
-[5.6.3 Series](5.6.3-series.md)
+[5.6.3 for Windows](5.6.3-series.md)
+[5.6.3 for Android](5.6.3-android.md)
 
 ## 5.9 Series
 Since 5.9 series is LTS, so I will remain support until when Qt ends support of these packages.
 
-[5.9.8 Series](5.9.8-series.md)
+[5.9.8 for Windows](5.9.8-series.md)
+[5.9.8 for Android](5.9.8-android.md)
 
 ## 5.12 Series
 Since 5.12 series is LTS, so I will remain support until when Qt ends support of these packages.
 Static builds are built until next LTS released.
 
-[5.12.4 Series](5.12.4-series.md)
+[5.12.4 for Windows](5.12.4-series.md)
+[5.12.4 for Android](5.12.4-android.md)
+[5.12.3 for WebAssembly](5.12.3-wasm.md)
 
 ## 5.13 Series
 5.13 series is not LTS, thus no static builds.
 
-[5.13.0 Series](5.13.0-series.md)
+[5.13.0 for Windows](5.13.0-series.md)
+[5.13.0 for Android](5.13.0-android.md)
+[5.13.0 for WebAssembly]() TODO
+
+## Current Failures
+
+[here](failures.md)
 
 ## Update
+
+### 2019.7.8
+Android packages are updated to Qt 5.12.4 and Qt 5.13.0.
+Rebuild Android packages with OpenSSL 1.1.1c and 1.0.2s.
+Page links to Android/Wasm packages are put into main page instead of the "XXX-series" pages.
 
 ### 2019.7.6
 Windows packages are updated to Qt 5.13.0.

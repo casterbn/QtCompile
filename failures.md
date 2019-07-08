@@ -22,3 +22,8 @@ Using compile scripts will cause failure. Reason is unknown.
 ## Default compressed VS2015 static package is detected as malware by SF.net
 
 Recompress it by hand solves the problem.
+
+## Android NDK r20 can't be used for building Qt
+
+`cannot find library -lc++`
+
