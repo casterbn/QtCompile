@@ -41,20 +41,23 @@ Static builds are built until next LTS released.
 
 [5.12.4 for Windows](5.12.4-series.md)
 [5.12.4 for Android](5.12.4-android.md)
-[5.12.3 for WebAssembly](5.12.3-wasm.md)
+[5.12.4 for WebAssembly](5.12.4-wasm.md)
 
 ## 5.13 Series
 5.13 series is not LTS, thus no static builds.
 
 [5.13.0 for Windows](5.13.0-series.md)
 [5.13.0 for Android](5.13.0-android.md)
-[5.13.0 for WebAssembly]() TODO
+[5.13.0 for WebAssembly](5.13.0-wasm.md)
 
 ## Current Failures
 
 [here](failures.md)
 
 ## Update
+
+### 2019.7.9
+WebAssembly packages are updated to Qt 5.12.4 and Qt 5.13.0.
 
 ### 2019.7.8
 Android packages are updated to Qt 5.12.4 and Qt 5.13.0. <font color=red>__Used NDK r19c, although the file name is r20__</font>

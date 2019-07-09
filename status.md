@@ -189,7 +189,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|macOS 10.14|↑|arm||android-clang|||
 |↑|↑|↑|arm64||android-clang|||
 |↑|↑|↑|x86||android-clang|||
-|WebAssembly|Ubuntu 16.04|emscripten-1.38.16|-||wasm-emscripten|||
+|WebAssembly|Ubuntu 16.04|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.14|↑|-||wasm-emscripten|||
 
 ## Qt 5.13.0 Series
@@ -220,7 +220,7 @@ Qt 5.13.0 will release in May.
 |↑|↑|↑|arm64||android-clang|||
 |↑|↑|↑|x86||android-clang|||
 |↑|↑|↑|x86_64||android-clang|||
-|WebAssembly|Windows 10 10.0.18362|emscripten-1.38.30|-|-feature-threads|wasm-emscripten||-feature|
-|↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|||
+|WebAssembly|Windows 10 10.0.18362|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
+|↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.14|↑|-|-feature-threads|wasm-emscripten|||
 
