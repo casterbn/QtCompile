@@ -52,7 +52,7 @@ Build Hosts:
 |5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|0.6.0|
 |5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|0.6.0|
 |5.12.4|win32-msvc|Windows Server 2008 R2 SP1|VS2015 Update 3|0.6.0|
-|5.12.4|win32-msvc|Windows 10 10.0.18362|VS2017 15.9.13|0.6.0|
+|5.12.4|win32-msvc|Windows 10 10.0.18362|VS2017 15.9.14|0.6.0|
 |5.12.4|macx-clang|macOS 10.14|AppleClang 10.0|0.6.0|
 |5.12.4|linux-g++|CentOS 7.6|GCC 4.8.5|0.6.0|
 |5.12.4|linux-g++|Ubuntu 16.04|GCC 5.4.0|0.6.0|
@@ -79,8 +79,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.0.2s|Windows|Windows Server 2008 R2 SP1|MinGW 4.9.4|x86_64||
 |1.0.2s|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
 |1.0.2s|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
-|1.0.2s|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86||
-|1.0.2s|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64||
+|1.0.2s|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86||
+|1.0.2s|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86_64||
 |1.0.2s|macOS|OS X 10.10|AppleClang 6.1|x86_64||
 |1.0.2s|Android|CentOS 7.6|ndk r10e|arm|android-9|
 |1.0.2s|Android|CentOS 7.6|ndk r10e|arm|android-16|
@@ -92,12 +92,12 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1c|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86_64||
 |1.1.1c|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
 |1.1.1c|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86||
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86|-static|
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64||
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.13|x86_64|-static|
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2019 16.1.4|x86||
-|1.1.1c|Windows|Windows 10 10.0.18362|VS2019 16.1.4|x86_64||
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86||
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86|-static|
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86_64||
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2017 15.9.14|x86_64|-static|
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2019 16.1.6|x86||
+|1.1.1c|Windows|Windows 10 10.0.18362|VS2019 16.1.6|x86_64||
 |1.1.1c|Android|CentOS 7.6|ndk r19c|arm|android-21|
 |1.1.1c|Android|CentOS 7.6|ndk r19c|arm64|android-21|
 |1.1.1c|Android|CentOS 7.6|ndk r19c|x86|android-21|
@@ -143,7 +143,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |-|
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18362|VS2017 15.9.14|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
@@ -166,12 +166,12 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18362|VS2017 15.9.14|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
-|↑|↑|VS2019 16.1.4|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.1.6|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
@@ -200,9 +200,9 @@ Qt 5.13.0 will release in May.
 |-|
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18362|VS2017 15.9.13|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18362|VS2017 15.9.14|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|↑|VS2019 16.1.5|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.1.6|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|

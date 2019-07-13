@@ -27,3 +27,7 @@ Recompress it by hand solves the problem.
 
 `cannot find library -lc++`
 
+## MDWiki can't be tested using recent Firefox
+
+Only for local files.
+Remote files are working normally.

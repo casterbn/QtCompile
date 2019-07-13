@@ -56,6 +56,11 @@ Static builds are built until next LTS released.
 
 ## Update
 
+### 2019.7.13
+Rebuild __ALL__ packages using updated QQtPatcher due to a bug in QQtPatcher.
+VS2017 is updated to 15.9.14.
+VS2019 is updated to 16.1.6.
+
 ### 2019.7.9
 WebAssembly packages are updated to Qt 5.12.4 and Qt 5.13.0.
 
