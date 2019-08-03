@@ -1,7 +1,5 @@
 # Build Failures about the original packages
 
-[Return to main page](index.md)
-
 ## Qt 4.8 can't be built using VS2017/2019
 
 ## Qt Webkit 4.8 can't be built using VS2015
@@ -26,8 +24,3 @@ Recompress it by hand solves the problem.
 ## Android NDK r20 can't be used for building Qt
 
 `cannot find library -lc++`
-
-## MDWiki can't be tested using recent Firefox
-
-Only for local files.
-Remote files are working normally.

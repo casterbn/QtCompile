@@ -1,7 +1,5 @@
 # Notes for this repo
 
-[Return to main page](index.md)
-
 ## Notes on static builds
 
 I don't use static builds in huge projects. I think it is not wise to use a static build there.

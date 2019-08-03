@@ -1,7 +1,5 @@
 # Current Status
 
-[Return to main page](index.md)
-
 ## QQtPatcher Support Status
 
 This is a list where QQtPatcher is supported and tested on.  
@@ -223,4 +221,3 @@ Qt 5.13.0 will release in May.
 |WebAssembly|Windows 10 10.0.18362|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
 |↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.14|↑|-|-feature-threads|wasm-emscripten|||
-
