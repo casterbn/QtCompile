@@ -47,13 +47,13 @@ Build Hosts:
 
 | Qt Version | -platform | Host | Compiler Version | QQtPatcher version |
 |-|
-|5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|0.6.0|
-|5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|0.6.0|
-|5.12.4|win32-msvc|Windows Server 2008 R2 SP1|VS2015 Update 3|0.6.0|
-|5.12.4|win32-msvc|Windows 10 10.0.18362|VS2017 15.9.14|0.6.0|
-|5.12.4|macx-clang|macOS 10.14|AppleClang 10.0|0.6.0|
-|5.12.4|linux-g++|CentOS 7.6|GCC 4.8.5|0.6.0|
-|5.12.4|linux-g++|Ubuntu 16.04|GCC 5.4.0|0.6.0|
+|5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|0.6.1|
+|5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|0.6.1|
+|5.12.4|win32-msvc|Windows Server 2008 R2 SP1|VS2015 Update 3|0.6.1|
+|5.12.4|win32-msvc|Windows 10 10.0.18362|VS2017 15.9.14|0.6.1|
+|5.12.4|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
+|5.12.4|linux-g++|CentOS 7.6|GCC 4.8.5|0.6.1|
+|5.12.4|linux-g++|Ubuntu 16.04|GCC 5.4.0|0.6.1|
 
 ## OpenSSL Status
 
