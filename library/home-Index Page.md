@@ -1,5 +1,11 @@
 # Fsu0413's Original Qt builds
 
+## Business tripping
+
+I am on a business trip to Japan until 29th, Sept.
+1st to 7th, Oct. are Chinese National Day, and I will be on holiday trip.
+I will build Qt 5.13.1 after 8th, Oct., I assumed. (There may be a delay for the business......)
+
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
