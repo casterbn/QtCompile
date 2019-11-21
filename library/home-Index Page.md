@@ -57,7 +57,7 @@ There will be no further build of original Qt 5.9 after Qt 5.9 Series gets EOL (
 There will be no build on Windows 7 (Server 2008 R2) after Windows 7 gets EOL (will be at 2020.1.11), existing Windows 7 builds will migrate to Windows 8.1 (Server 2012 R2)
 
 ### 2019.8.26
-A bug about packaging has been revealed. It affects all versions of Qt 5.12 or later.
+A bug about packaging has been revealed. It affects all versions of Qt 5.12 or later.  
 The package of 5.12.5 will fix this issue.
 
 ### 2019.8.3
