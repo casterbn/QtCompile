@@ -6,6 +6,10 @@ I am on a business trip to Japan until 29th, Sept.
 1st to 7th, Oct. are Chinese National Day, and I will be on holiday trip.
 I will build Qt 5.13.1 after 8th, Oct., I assumed. (There may be a delay for the business......)
 
+The business trip was delayed again and again before my visa expires.
+I assumed I can go home on 24th, Nov.
+Qt 5.13.2 and 5.12.6 was released but I didn't have time to build it, sorry for inconvenience.....
+
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
@@ -32,6 +36,10 @@ Please refer to the content lists in the left area.
 [here](?file=008-Misc/003-Current%20failures)
 
 ## Update
+
+### 2019.8.26
+A bug about packaging has been revealed. It affects all versions of Qt 5.12 or later.
+The package of 5.12.5 will fix this issue.
 
 ### 2019.8.3
 Re-create this site using amWiki.  

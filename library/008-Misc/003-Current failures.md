@@ -13,9 +13,9 @@
 Both `qsslsocket_opensslpre11.cpp` and `qsslsocket_openssl11.cpp` includes `qlibrary.h` which is not usable in wasm platform.  
 Since `-openssl` and `-openssl-linked` both use this file, so we can only use `-no-ssl`.......
 
-## Qt 5.12 with WebEngine can only be built by hand
+## ~~Qt 5.12 with WebEngine can only be built by hand~~
 
-Using compile scripts will cause failure. Reason is unknown.
+~~Using compile scripts will cause failure. Reason is unknown.~~
 
 ## Default compressed VS2015 static package is detected as malware by SF.net
 
@@ -24,3 +24,4 @@ Recompress it by hand solves the problem.
 ## Android NDK r20 can't be used for building Qt
 
 `cannot find library -lc++`
+_Resolved in Qt 5.12.5 and 5.13.1_
