@@ -24,3 +24,4 @@ Recompress it by hand solves the problem.
 ## Android NDK r20 can't be used for building Qt
 
 `cannot find library -lc++`
+_Resolved in Qt 5.12.5 and 5.13.1_
