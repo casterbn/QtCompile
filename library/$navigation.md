@@ -13,14 +13,14 @@
 - [5.9.8 for Android](?file=005-5.9 Series/002-5.9.8 for Android "5.9.8 for Android")
 
 ##### 5.12 Series
-- [5.12.4 for Windows](?file=006-5.12 Series/001-5.12.4 for Windows "5.12.4 for Windows")
-- [5.12.4 for Android](?file=006-5.12 Series/002-5.12.4 for Android "5.12.4 for Android")
-- [5.12.4 for WebAssembly](?file=006-5.12 Series/003-5.12.4 for WebAssembly "5.12.4 for WebAssembly")
+- [5.12.6 for Windows](?file=006-5.12 Series/001-5.12.6 for Windows "5.12.6 for Windows")
+- [5.12.6 for Android](?file=006-5.12 Series/002-5.12.6 for Android "5.12.6 for Android")
+- [5.12.6 for WebAssembly](?file=006-5.12 Series/003-5.12.6 for WebAssembly "5.12.6 for WebAssembly")
 
 ##### 5.13 Series
-- [5.13.0 for Windows](?file=007-5.13 Series/001-5.13.0 for Windows "5.13.0 for Windows")
-- [5.13.0 for Android](?file=007-5.13 Series/002-5.13.0 for Android "5.13.0 for Android")
-- [5.13.0 for WebAssembly](?file=007-5.13 Series/003-5.13.0 for WebAssembly "5.13.0 for WebAssembly")
+- [5.13.2 for Windows](?file=007-5.13 Series/001-5.13.2 for Windows "5.13.2 for Windows")
+- [5.13.2 for Android](?file=007-5.13 Series/002-5.13.2 for Android "5.13.2 for Android")
+- [5.13.2 for WebAssembly](?file=007-5.13 Series/003-5.13.2 for WebAssembly "5.13.2 for WebAssembly")
 
 ##### Misc
 - [Notes for this repo](?file=008-Misc/001-Notes for this repo "Notes for this repo")

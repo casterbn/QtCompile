@@ -1,15 +1,5 @@
 # Fsu0413's Original Qt builds
 
-## Business tripping
-
-I am on a business trip to Japan until 29th, Sept.  
-1st to 7th, Oct. are Chinese National Day, and I will be on holiday trip.  
-I will build Qt 5.13.1 after 8th, Oct., I assumed. (There may be a delay for the business......)
-
-The business trip was delayed again and again before my visa expires.  
-I assumed I can go home on 24th, Nov.  
-Qt 5.13.2 and 5.12.6 was released but I didn't have time to build it, sorry for inconvenience.....
-
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
@@ -37,6 +27,10 @@ Please refer to the content lists in the left area.
 
 ## Update
 
+### 2019.12.2
+
+Uploaded all rebuilt packages after my business trip.
+
 ### 2019.11.22
 Update pending after I return to China.....  
 Qt 5.12 Series => 5.12.6  
@@ -50,7 +44,7 @@ Andrid NDK => r20b
 OS update pending.....  
 Win10 => 10.0.18363  
 CentOS 7 => 7.7.1908 (Should there be a CentOS 8 environment? Currently Ubuntu 16.04 LTS is used to build the WebAssembly packages. If we change to CentOS 8 then it will become based on new software)  
-macOS => 10.15 (macOS will not update to 10.15 when building Qt 5.9, but will update when building Qt 5.12 or later)  
+macOS 10.14 => 10.15
 
 There will be no further build of original Qt 4.8/5.6 after OpenSSL 1.0.2 Series gets EOL (will be at 2019.12.31)  
 There will be no further build of original Qt 5.9 after Qt 5.9 Series gets EOL (will be at 2020.5.31)  
