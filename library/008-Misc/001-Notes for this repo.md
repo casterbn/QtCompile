@@ -7,7 +7,7 @@ I don't use static builds in huge projects. I think it is not wise to use a stat
 Maybe you just want to distribute a single portable executable binary file, but there is limitations:
 
 * It is not free of charge unless the program itself is a free software under (L)GPLv3.
-* A few modules of Qt does not compile. (Webengine, etc...)
+* A few modules of Qt does not compile. (WebEngine, etc...)
 * Cannot use dynamically-linked plugin.
 * It is not linked at compile time, possibly causing linking problem afterwards.
 
@@ -20,7 +20,7 @@ It is useful for people who wants to build the QtIFW without building a full sta
 
 Static `full` builds don't skip most of Qt modules, only skip modules which will cause compile failure.
 
-## Notes on users of old-version Qt
+## Notes on users of Qt of old version
 
 I only provide the prebuilt libraries of the latest version of each major release/LTS release, older non-LTS versions will get deleted soon after I release most of the packages of the new version.
 
@@ -75,5 +75,5 @@ I redistributed a version of QQtPatcher, you should run it to make Qt Creator ru
 
 The source code of the distributed QQtPatcher is on [Github](https://github.com/Fsu0413/QQtPatcher). It is a free software and distributed in public domain.
 
-Do not put the library in a library which contains non-ascii character.   
+Do not put the library in a directory which contains non-ascii character.   
 Bug will cause that the path of qmake cannot be properly parsed by Qt Creator.

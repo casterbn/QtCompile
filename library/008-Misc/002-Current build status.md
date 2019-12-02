@@ -192,8 +192,6 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 ## Qt 5.13.0 Series
 
-Qt 5.13.0 will release in May.
-
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
 |Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
@@ -221,3 +219,19 @@ Qt 5.13.0 will release in May.
 |WebAssembly|Windows 10 10.0.18362|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
 |↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.14|↑|-|-feature-threads|wasm-emscripten|||
+
+## Qt 5.14.0 Series
+
+Qt 5.14.0 will release in Nov. 2019.
+
+| Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
+|-|
+|NOT PLANNED|
+
+## Qt 6.0.0 Series
+
+Qt 6.0.0 will release sometime in the future.
+
+| Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
+|-|
+|NOT PLANNED|
