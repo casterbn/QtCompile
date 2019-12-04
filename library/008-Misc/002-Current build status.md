@@ -133,8 +133,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|CentOS 7.7|↑|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
-|↑|macOS 10.15|↑|arm||android-g++|||
-|↑|↑|↑|x86||android-g++|||
+|↑|macOS 10.15|↑|arm||android-g++||√|
+|↑|↑|↑|x86||android-g++||√|
 
 ## Qt 5.9.8 Series
 
@@ -155,8 +155,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|macOS 10.15|↑|arm||android-g++|||
-|↑|↑|↑|arm64||android-g++|||
-|↑|↑|↑|x86||android-g++|||
+|↑|↑|↑|arm64||android-g++||√|
+|↑|↑|↑|x86||android-g++||√|
 
 ## Qt 5.12.6 Series
 
@@ -186,9 +186,9 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|CentOS 7.7|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|↑|macOS 10.15|↑|arm||android-clang|||
-|↑|↑|↑|arm64||android-clang|||
-|↑|↑|↑|x86||android-clang|||
+|↑|macOS 10.15|↑|arm||android-clang||√|
+|↑|↑|↑|arm64||android-clang||√|
+|↑|↑|↑|x86||android-clang||√|
 |WebAssembly|Ubuntu 16.04|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-||wasm-emscripten||√|
 
@@ -214,10 +214,10 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|↑|↑|x86_64||android-clang|√|√|
-|↑|macOS 10.15|↑|arm||android-clang|||
-|↑|↑|↑|arm64||android-clang|||
-|↑|↑|↑|x86||android-clang|||
-|↑|↑|↑|x86_64||android-clang|||
+|↑|macOS 10.15|↑|arm||android-clang||√|
+|↑|↑|↑|arm64||android-clang||√|
+|↑|↑|↑|x86||android-clang||√|
+|↑|↑|↑|x86_64||android-clang||√|
 |WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
 |↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten||√|
