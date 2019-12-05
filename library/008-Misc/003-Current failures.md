@@ -6,7 +6,11 @@
 
 ## Qt 5.6/5.9 can't be built using VS2019
 
+I won't do the modifications.
+
 ## Qt WebEngine 5.6 can't be built using VS2017/VS2019
+
+I won't do the modifications.
 
 ## Qt 5.12 wasm builds can't built with OpenSSL
 
@@ -24,3 +28,16 @@ Recompress it by hand solves the problem.
 ## (_Resolved in Qt 5.12.5 and 5.13.1_) ~~Android NDK r20 can't be used for building Qt~~
 
 ~~`cannot find library -lc++`~~
+
+## QDoc after Qt 5.12 cannot use static linked clang when using MSVC
+
+It uses "libclang_static.lib" but clang don't provide this one.  
+I have decided not provide LLVM-based qdoc until I find a way to static link it.
+
+## Qt 5.9.8 and 5.12.6 cannot be compiled using xcode 11
+
+Some parts don't compile.  
+Static lite version and host tools compiles, the cross compiled version compiles.  
+5.9 series fails on QtConnectivity, while 5.12 series fails on QtWebEngine.
+
+I think that 5.12 series should be fixed soon, but 5.9 series may not be fixed.

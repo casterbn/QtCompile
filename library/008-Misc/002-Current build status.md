@@ -109,8 +109,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |-|
 |Windows|Windows XP SP3|VS2010 SP1|x86||win32-msvc2010|√|√|
 |↑|↑|MinGW 4.9.4|x86||win32-g++|√|√|
-|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-llvm||√|
-|↑|↑|↑|x86_64|-no-framework|macx-llvm||√|
+|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-llvm|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-llvm|√|√|
 
 ## Qt 5.6.3 Series
 
@@ -126,15 +126,15 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|Windows Server 2008 R2 SP1|↑|x86_64||win32-g++|√|√|
 |↑|Windows XP SP3|↑|x86|-static|win32-g++|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
-|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-static|macx-clang|Won't upload|√|
+|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |Android|Windows 10 10.0.18363|ndk r10e|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|CentOS 7.7|↑|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
-|↑|macOS 10.15|↑|arm||android-g++||√|
-|↑|↑|↑|x86||android-g++||√|
+|↑|macOS 10.15|↑|arm||android-g++|√|√|
+|↑|↑|↑|x86||android-g++|√|√|
 
 ## Qt 5.9.8 Series
 
@@ -154,9 +154,9 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|CentOS 7.7|↑|arm||android-g++|√|√|
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
-|↑|macOS 10.15|↑|arm||android-g++|||
-|↑|↑|↑|arm64||android-g++||√|
-|↑|↑|↑|x86||android-g++||√|
+|↑|macOS 10.15|↑|arm||android-g++|√|√|
+|↑|↑|↑|arm64||android-g++|√|√|
+|↑|↑|↑|x86||android-g++|√|√|
 
 ## Qt 5.12.6 Series
 
@@ -174,23 +174,23 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
-|Linux|CentOS 7.7|GCC 4.8.5|x86_64|-static|linux-g++|Won't upload|√|
-|↑|Ubuntu 16.04|GCC 5.4.0|x86_64|-static|linux-g++|Won't upload|√|
-|macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-static|macx-clang|Won't upload|√|
-|↑|macOS 10.15|AppleClang 11.0|x86_64|-static|macx-clang|Won't upload|√|
+|Linux|CentOS 7.7|GCC 4.8.5|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
+|↑|Ubuntu 16.04|GCC 5.4.0|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
+|macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
+|↑|macOS 10.15|AppleClang 11.0|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|CentOS 7.7|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|↑|macOS 10.15|↑|arm||android-clang||√|
-|↑|↑|↑|arm64||android-clang||√|
-|↑|↑|↑|x86||android-clang||√|
+|↑|macOS 10.15|↑|arm||android-clang|√|√|
+|↑|↑|↑|arm64||android-clang|√|√|
+|↑|↑|↑|x86||android-clang|√|√|
 |WebAssembly|Ubuntu 16.04|emscripten-1.38.16|-||wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-||wasm-emscripten||√|
+|↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
 ## Qt 5.13.2 Series
 
@@ -204,8 +204,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
@@ -214,13 +214,13 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|↑|↑|x86_64||android-clang|√|√|
-|↑|macOS 10.15|↑|arm||android-clang||√|
-|↑|↑|↑|arm64||android-clang||√|
-|↑|↑|↑|x86||android-clang||√|
-|↑|↑|↑|x86_64||android-clang||√|
+|↑|macOS 10.15|↑|arm||android-clang|√|√|
+|↑|↑|↑|arm64||android-clang|√|√|
+|↑|↑|↑|x86||android-clang|√|√|
+|↑|↑|↑|x86_64||android-clang|√|√|
 |WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
 |↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten||√|
+|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
 
 ## Qt 5.14.0 Series
 

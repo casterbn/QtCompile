@@ -27,6 +27,10 @@ Please refer to the content lists in the left area.
 
 ## Update
 
+### 2019.12.5
+
+Upload all macOS packages except for 5.9.8 host builds. (It's not completed at the time of uploading.)
+
 ### 2019.12.2
 
 Uploaded all rebuilt packages after my business trip.
