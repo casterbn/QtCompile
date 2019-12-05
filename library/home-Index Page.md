@@ -29,7 +29,7 @@ Please refer to the content lists in the left area.
 
 ### 2019.12.5
 
-Upload all macOS packages except for 5.9.8 host builds. (It's not completed at the time of uploading.)
+Upload all macOS packages.
 
 ### 2019.12.2
 
