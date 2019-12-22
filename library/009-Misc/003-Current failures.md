@@ -2,7 +2,11 @@
 
 ## Qt 4.8 can't be built using VS2017/2019
 
+I'll do when I have time.
+
 ## Qt Webkit 4.8 can't be built using VS2015/VS2017/VS2019
+
+I'll do when I have time.
 
 ## Qt 5.6/5.9 can't be built using VS2019
 
@@ -41,3 +45,8 @@ Static lite version and host tools compiles, the cross compiled version compiles
 5.9 series fails on QtConnectivity, while 5.12 series fails on QtWebEngine.
 
 I think that 5.12 series should be fixed soon, but 5.9 series may not be fixed.
+
+## Qt 5.14.0 cannot be compiled for Android with linked OpenSSL
+
+See [QTBUG-80862](https://bugreports.qt.io/browse/QTBUG-80862)
+qmake is always using aarch64 compiler for checking the availability of OpenSSL libs and fails if target arch is not aarch64.

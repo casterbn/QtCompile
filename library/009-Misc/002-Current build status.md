@@ -7,6 +7,10 @@ Other version may work, but also may silently fail.
 
 A valid qbp.json is needed for patching Qt 4 Series since `qmake -query` don't output the makespec.
 
+Qt 5.14 is relocatable as for the [New Features in Qt 5.14](https://wiki.qt.io/New_Features_in_Qt_5.14), so it seems like Qt 5 after 5.14 won't need QQtPatcher anymore.
+I delivered QQtPatcher for earlier version of 5.14 (as for the fact that I forgot to modify QQtPatcher related code).
+This tool won't be thoroughly tested on 5.13 and 5.14.
+
 | Qt Version | -platform | -xplatform | Notes | Tested |
 |-|
 |4.8.7|win32-msvc2010|-|Needs qbp.json|√|
@@ -33,15 +37,8 @@ A valid qbp.json is needed for patching Qt 4 Series since `qmake -query` don't o
 |5.12.6|linux-g++|-||√|
 |5.12.6|linux-g++|android-clang||√|
 |5.12.6|linux-g++|wasm-emscripten||√|
-|5.13.2|win32-msvc|-|VS2015, VS2017, VS2019||
-|5.13.2|win32-g++|-|||
 |5.13.2|win32-g++|android-clang|||
-|5.13.2|win32-g++|wasm-emscripten|||
-|5.13.2|macx-clang|-|||
-|5.13.2|macx-clang|wasm-emscripten|||
-|5.13.2|linux-g++|-|||
 |5.13.2|linux-g++|android-clang|||
-|5.13.2|linux-g++|wasm-emscripten|||
 
 Build Hosts:
 
@@ -194,18 +191,10 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 ## Qt 5.13.2 Series
 
+__Qt 5.14 for Android failed to compile with -openssl-linked, so the 5.13.2 ones has been remained only for Android__
+
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
-|↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.17|x86||win32-msvc|√|√|
-|↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|↑|VS2019 16.3.10|x86||win32-msvc|√|√|
-|↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|↑|MinGW 7.3.0|x86||win32-g++|√|√|
-|↑|↑|↑|x86_64||win32-g++|√|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
@@ -218,17 +207,36 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|↑|↑|x86_64||android-clang|√|√|
-|WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
-|↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
 
 ## Qt 5.14.0 Series
 
-Qt 5.14.0 will release in Dec. 2019.
-
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|NOT PLANNED|
+|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.18|x86||win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
+|↑|↑|VS2019 16.4.1|x86||win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
+|↑|↑|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|↑|↑|x86_64||win32-g++|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang||√|
+|↑|↑|↑|arm64||android-clang||√|
+|↑|↑|↑|x86||android-clang||√|
+|↑|↑|↑|x86_64||android-clang||√|
+|↑|CentOS 7.7|↑|arm||android-clang||√|
+|↑|↑|↑|arm64||android-clang||√|
+|↑|↑|↑|x86||android-clang||√|
+|↑|↑|↑|x86_64||android-clang||√|
+|↑|macOS 10.15|↑|arm||android-clang||√|
+|↑|↑|↑|arm64||android-clang||√|
+|↑|↑|↑|x86||android-clang||√|
+|↑|↑|↑|x86_64||android-clang||√|
+|WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
+|↑|Ubuntu 16.04|↑|-|-feature-threads|wasm-emscripten|√|√|
+|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
 
 ## Qt 6.0.0 Series
 

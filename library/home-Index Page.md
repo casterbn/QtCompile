@@ -1,5 +1,10 @@
 # Fsu0413's Original Qt builds
 
+## Future plan on build environment
+
+Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change)  
+Windows 7 (Server 2008 R2) => Windows 8.1 (Windows 7 will be EOL in ONE MONTH at the time of writing, Qt 5.14.0 will be the last build on Windows Server 2008 R2)  
+
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
@@ -12,20 +17,25 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 ## Notes for this repo
 
-[here](?file=008-Misc/001-Notes%20for%20this%20repo)
+[here](?file=009-Misc/001-Notes%20for%20this%20repo)
 
 ## Current build status
 
-[here](?file=008-Misc/002-Current%20build%20status)
+[here](?file=009-Misc/002-Current%20build%20status)
 
 ## Downloads
 Please refer to the content lists in the left area.
 
 ## Current failures
 
-[here](?file=008-Misc/003-Current%20failures)
+[here](?file=009-Misc/003-Current%20failures)
 
 ## Update
+
+### 2019.12.22
+
+Upload 5.9.9 and 5.14.0 packages.
+(Qt 5.14.0 packages for android is missing due to an error during configure)
 
 ### 2019.12.5
 
