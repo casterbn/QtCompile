@@ -38,7 +38,7 @@ Recompress it by hand solves the problem.
 It uses "libclang_static.lib" but clang don't provide this one.  
 I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
-## Qt 5.9.8 and 5.12.6 cannot be compiled using xcode 11
+## Qt 5.9.9 and 5.12.6 cannot be compiled using xcode 11
 
 Some parts don't compile.  
 Static lite version and host tools compiles, the cross compiled version compiles.  
@@ -48,5 +48,5 @@ I think that 5.12 series should be fixed soon, but 5.9 series may not be fixed.
 
 ## Qt 5.14.0 cannot be compiled for Android with linked OpenSSL
 
-See [QTBUG-80862](https://bugreports.qt.io/browse/QTBUG-80862)
+See [QTBUG-80862](https://bugreports.qt.io/browse/QTBUG-80862)  
 qmake is always using aarch64 compiler for checking the availability of OpenSSL libs and fails if target arch is not aarch64.

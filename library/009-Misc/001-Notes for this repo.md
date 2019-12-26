@@ -1,5 +1,14 @@
 # Notes for this repo
 
+## Packaging
+
+I use a set of scripts to do the compilation and packaging.  
+If you are interested in compilation method, please check the following GitHub repo.
+
+[GitHub](https://github.com/Fsu0413/Fs-scripts)
+
+(However unfortunely, this web page is manually edited)
+
 ## Notes on static builds
 
 I don't use static builds in huge projects. I think it is not wise to use a static build there.
@@ -66,14 +75,14 @@ No demos for Qt 4 builds, which cuts more than a half of the size of the whole Q
 
 No docs (and no QDoc for Qt 5.12 and later since it depends on Clang), since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
 
-## Notes for Qt Creator users
+## Notes for Qt 4 and Qt 5 before 5.14
 
-Qt Creator should complain about the binary files which were just uncompressed from the tarball.  
+Qt should complain about the binary files which were just uncompressed from the tarball.  
 It should say "Qt is not properly installed, please run _make install_" or something like this.
 
 I redistributed a version of QQtPatcher, you should run it to make Qt Creator running.
 
 The source code of the distributed QQtPatcher is on [Github](https://github.com/Fsu0413/QQtPatcher). It is a free software and distributed in public domain.
 
-Do not put the library in a directory which contains non-ascii character.   
+Do not put the library in a directory which contains non-ascii character or spaces.   
 Bug will cause that the path of qmake cannot be properly parsed by Qt Creator.

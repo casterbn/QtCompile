@@ -23,12 +23,12 @@ This tool won't be thoroughly tested on 5.13 and 5.14.
 |5.6.3|macx-clang|-||√|
 |5.6.3|linux-g++|-||√|
 |5.6.3|linux-g++|android-g++||√|
-|5.9.8|win32-msvc|-|VS2015, VS2017|√|
-|5.9.8|win32-g++|-||√|
-|5.9.8|win32-g++|android-g++||√|
-|5.9.8|macx-clang|-||√|
-|5.9.8|linux-g++|-||√|
-|5.9.8|linux-g++|android-g++||√|
+|5.9.9|win32-msvc|-|VS2015, VS2017|√|
+|5.9.9|win32-g++|-||√|
+|5.9.9|win32-g++|android-g++||√|
+|5.9.9|macx-clang|-||√|
+|5.9.9|linux-g++|-||√|
+|5.9.9|linux-g++|android-g++||√|
 |5.12.6|win32-msvc|-|VS2015, VS2017, VS2019|√|
 |5.12.6|win32-g++|-||√|
 |5.12.6|win32-g++|android-clang||√|
@@ -46,7 +46,7 @@ Build Hosts:
 |-|
 |5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|0.6.1|
 |5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|0.6.1|
-|5.12.6|win32-msvc|Windows Server 2008 R2 SP1|VS2015 Update 3|0.6.1|
+|5.12.6|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.6.1|
 |5.12.6|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.17|0.6.1|
 |5.12.6|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
 |5.12.6|macx-clang|macOS 10.15|AppleClang 11.0|0.6.1|
@@ -68,13 +68,13 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.0.2t|Windows|Windows XP SP3|VS2010 SP1|x86||
 |1.0.2t|Windows|Windows XP SP3|VS2010 SP1|x86|-static|
 |1.0.2t|Windows|Windows XP SP3|MinGW 4.9.4|x86||
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86|-xp|
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86|-xp, -static|
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86_64||
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|MinGW 4.9.4|x86_64||
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
-|1.0.2t|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
+|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
+|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-xp|
+|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-xp, -static|
+|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
+|1.0.2t|Windows|Windows 8.1 Update|MinGW 4.9.4|x86_64||
+|1.0.2t|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
+|1.0.2t|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
 |1.0.2t|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86||
 |1.0.2t|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86_64||
 |1.0.2t|macOS|OS X 10.10|AppleClang 6.1|x86_64||
@@ -86,8 +86,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86||
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86|-static|
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86_64||
-|1.1.1d|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||
-|1.1.1d|Windows|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86_64||
+|1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
+|1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86||
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86|-static|
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86_64||
@@ -116,11 +116,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |Windows|Windows XP SP3|VS2010 SP1|x86||win32-msvc2010|√|√|
 |↑|↑|↑|x86|-static|win32-msvc2010|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc2010|√|√|
-|↑|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc2015|√|√|
+|↑|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc2015|√|√|
 |↑|↑|↑|x86|-target xp|win32-msvc2015|√|√|
 |↑|↑|↑|x86_64||win32-msvc2015|√|√|
 |↑|Windows XP SP3|MinGW 4.9.4|x86||win32-g++|√|√|
-|↑|Windows Server 2008 R2 SP1|↑|x86_64||win32-g++|√|√|
+|↑|Windows 8.1 Update|↑|x86_64||win32-g++|√|√|
 |↑|Windows XP SP3|↑|x86|-static|win32-g++|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
 |macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-clang|√|√|
@@ -133,18 +133,18 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|macOS 10.15|↑|arm||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 
-## Qt 5.9.8 Series
+## Qt 5.9.9 Series
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
+|Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 10 10.0.18363|VS2017 15.9.17|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
-|macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
+|macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.18363|ndk r10e|arm||android-g++|√|√|
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
@@ -159,7 +159,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
+|Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 10 10.0.18363|VS2017 15.9.17|x86||win32-msvc|√|√|
@@ -169,7 +169,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
 |↑|↑|VS2019 16.3.10|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows Server 2008 R2 SP1|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |Linux|CentOS 7.7|GCC 4.8.5|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
 |↑|Ubuntu 16.04|GCC 5.4.0|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
@@ -212,13 +212,13 @@ __Qt 5.14 for Android failed to compile with -openssl-linked, so the 5.13.2 ones
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|Windows|Windows Server 2008 R2 SP1|VS2015 Update 3|x86||win32-msvc|√|√|
+|Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 10 10.0.18363|VS2017 15.9.18|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|VS2019 16.4.1|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|↑|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|

@@ -3,7 +3,6 @@
 ## Future plan on build environment
 
 Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change)  
-Windows 7 (Server 2008 R2) => Windows 8.1 (Windows 7 will be EOL in ONE MONTH at the time of writing, Qt 5.14.0 will be the last build on Windows Server 2008 R2)  
 
 ## Disclaimer
 
@@ -32,9 +31,14 @@ Please refer to the content lists in the left area.
 
 ## Update
 
+### 2019.12.26
+
+Windows 8.1 Update build environment has been finished, and Windows Server 2008 R2 build environment has been destructed.  
+Upload all packages which build on Windows 8.1.
+
 ### 2019.12.22
 
-Upload 5.9.9 and 5.14.0 packages.
+Upload 5.9.9 and 5.14.0 packages.  
 (Qt 5.14.0 packages for android is missing due to an error during configure)
 
 ### 2019.12.5
