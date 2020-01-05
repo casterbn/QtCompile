@@ -7,7 +7,7 @@ If you are interested in compilation method, please check the following GitHub r
 
 [GitHub](https://github.com/Fsu0413/Fs-scripts)
 
-(However unfortunely, this web page is manually edited)
+(However unfortunely, this website is manually edited)
 
 ## Notes on static builds
 
@@ -63,24 +63,22 @@ tar -cJf xxx.tar.xz xxx/
 All Qt builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
 
 Using linked OpenSSL support for most packages.
-macOS Qt 4 builds and Windows Qt 4/5 builds before 5.12 are using linked OpenSSL to dynamic(shared) libraries, Android builds are using statically linked OpenSSL.  
-macOS Qt 5 builds are using SecureTransport instead of OpenSSL.
-Windows Qt 5 builds after 5.13 are using SChannel instead of OpenSSL.
+Windows builds before and including Qt 5.12 are using linked OpenSSL to dynamic(shared) libraries, Android builds are using statically linked OpenSSL.  
+macOS builds are using SecureTransport instead of OpenSSL.
+Windows builds after and including Qt 5.13 are using SChannel instead of OpenSSL.
 
 No debug libs, which cuts more than a half of the size of the whole Qt package.
 
 No examples, which cuts more than a half of the size of the whole Qt package.
 
-No demos for Qt 4 builds, which cuts more than a half of the size of the whole Qt package.
-
 No docs (and no QDoc for Qt 5.12 and later since it depends on Clang), since Qt docs can be read from http://doc.qt.io, it is no need to bondle doc to the package.
 
-## Notes for Qt 4 and Qt 5 before 5.14
+## Notes for Qt versions before 5.14
 
 Qt should complain about the binary files which were just uncompressed from the tarball.  
-It should say "Qt is not properly installed, please run _make install_" or something like this.
+It should say "Qt is not properly installed, please run _make install_" or something like this in Qt creator.
 
-I redistributed a version of QQtPatcher, you should run it to make Qt Creator running.
+I redistributed a version of QQtPatcher, you should run it to make Qt running.
 
 The source code of the distributed QQtPatcher is on [Github](https://github.com/Fsu0413/QQtPatcher). It is a free software and distributed in public domain.
 

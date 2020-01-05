@@ -1,21 +1,5 @@
 # Build Failures about the original packages
 
-## Qt 4.8 can't be built using VS2017/2019
-
-I'll do when I have time.
-
-## Qt Webkit 4.8 can't be built using VS2015/VS2017/VS2019
-
-I'll do when I have time.
-
-## Qt 5.6/5.9 can't be built using VS2019
-
-I won't do the modifications.
-
-## Qt WebEngine 5.6 can't be built using VS2017/VS2019
-
-I won't do the modifications.
-
 ## Qt 5.12 wasm builds can't built with OpenSSL
 
 Both `qsslsocket_opensslpre11.cpp` and `qsslsocket_openssl11.cpp` includes `qlibrary.h` which is not usable in wasm platform.  

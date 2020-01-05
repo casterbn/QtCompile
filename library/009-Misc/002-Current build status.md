@@ -44,8 +44,6 @@ Build Hosts:
 
 | Qt Version | -platform | Host | Compiler Version | QQtPatcher version |
 |-|
-|5.6.3|win32-g++|Windows XP SP3|MinGW 4.9.4|0.6.1|
-|5.6.3|macx-clang|OS X 10.10|AppleClang 6.1|0.6.1|
 |5.12.6|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.6.1|
 |5.12.6|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.17|0.6.1|
 |5.12.6|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
@@ -59,30 +57,20 @@ My Qt builds is with OpenSSL-linked for most platforms.
 Here is a list of OpenSSL builds of mine.
 
 Note:   
-OpenSSL 1.0.2 series on macOS is only for Qt 4.8.7. For Qt5 we are using SecureTransport.  
 OpenSSL 1.1.1 series on Windows is only for Qt 5.12 series. For Qt 5.13 onwards we are using SChannel.  
 MinGW builds is "-shared-and-static" so no need to build a seprate static version.
 
 | OpenSSL Version | Platform | Build Host | Compiler Version | Architecture | Variant |
 |-|
-|1.0.2t|Windows|Windows XP SP3|VS2010 SP1|x86||
-|1.0.2t|Windows|Windows XP SP3|VS2010 SP1|x86|-static|
-|1.0.2t|Windows|Windows XP SP3|MinGW 4.9.4|x86||
-|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
-|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-xp|
-|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-xp, -static|
-|1.0.2t|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
-|1.0.2t|Windows|Windows 8.1 Update|MinGW 4.9.4|x86_64||
-|1.0.2t|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
-|1.0.2t|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
-|1.0.2t|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86||
-|1.0.2t|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86_64||
-|1.0.2t|macOS|OS X 10.10|AppleClang 6.1|x86_64||
-|1.0.2t|Android|CentOS 7.7|ndk r10e|arm|android-9|
-|1.0.2t|Android|CentOS 7.7|ndk r10e|arm|android-16|
-|1.0.2t|Android|CentOS 7.7|ndk r10e|arm64|android-21|
-|1.0.2t|Android|CentOS 7.7|ndk r10e|x86|android-9|
-|1.0.2t|Android|CentOS 7.7|ndk r10e|x86|android-16|
+|1.0.2u|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
+|1.0.2u|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
+|1.0.2u|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
+|1.0.2u|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
+|1.0.2u|Windows|Windows 10 10.0.18363|VS2017 15.9.18|x86||
+|1.0.2u|Windows|Windows 10 10.0.18363|VS2017 15.9.18|x86_64||
+|1.0.2u|Android|CentOS 7.7|ndk r10e|arm|android-16|
+|1.0.2u|Android|CentOS 7.7|ndk r10e|arm64|android-21|
+|1.0.2u|Android|CentOS 7.7|ndk r10e|x86|android-16|
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86||
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86|-static|
 |1.1.1d|Windows|Windows Server 2008R2 SP1|VS2015 Update 3|x86_64||
@@ -99,47 +87,13 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1d|Android|CentOS 7.7|ndk r20b|x86|android-21|
 |1.1.1d|Android|CentOS 7.7|ndk r20b|x86_64|android-21|
 
-
-## Qt 4.8.7 Series
-
-| Platform | Build Host | Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
-|-|
-|Windows|Windows XP SP3|VS2010 SP1|x86||win32-msvc2010|√|√|
-|↑|↑|MinGW 4.9.4|x86||win32-g++|√|√|
-|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-llvm|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-llvm|√|√|
-
-## Qt 5.6.3 Series
-
-| Platform | Build Host | Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
-|-|
-|Windows|Windows XP SP3|VS2010 SP1|x86||win32-msvc2010|√|√|
-|↑|↑|↑|x86|-static|win32-msvc2010|√|√|
-|↑|↑|↑|x86|-static(Full)|win32-msvc2010|√|√|
-|↑|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc2015|√|√|
-|↑|↑|↑|x86|-target xp|win32-msvc2015|√|√|
-|↑|↑|↑|x86_64||win32-msvc2015|√|√|
-|↑|Windows XP SP3|MinGW 4.9.4|x86||win32-g++|√|√|
-|↑|Windows 8.1 Update|↑|x86_64||win32-g++|√|√|
-|↑|Windows XP SP3|↑|x86|-static|win32-g++|√|√|
-|↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
-|macOS|OS X 10.10|AppleClang 6.1|x86_64|-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
-|Android|Windows 10 10.0.18363|ndk r10e|arm||android-g++|√|√|
-|↑|↑|↑|x86||android-g++|√|√|
-|↑|CentOS 7.7|↑|arm||android-g++|√|√|
-|↑|↑|↑|x86||android-g++|√|√|
-|↑|macOS 10.15|↑|arm||android-g++|√|√|
-|↑|↑|↑|x86||android-g++|√|√|
-
 ## Qt 5.9.9 Series
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.17|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.18|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|

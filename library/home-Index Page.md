@@ -14,6 +14,10 @@ __THESE PACKAGE ARE PROVIDED "As is", I have no responsibility that you mess up 
 
 Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
 
+## IMPORTANT NOTES!!
+
+SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WINDOWS 8.1 AND LATER.  
+
 ## Notes for this repo
 
 [here](?file=009-Misc/001-Notes%20for%20this%20repo)
@@ -30,6 +34,15 @@ Please refer to the content lists in the left area.
 [here](?file=009-Misc/003-Current%20failures)
 
 ## Update
+
+### 2020.1.5
+
+Packages using OpenSSL 1.0.2 Series recompiled using OpenSSL 1.0.2u.  
+Including all Qt 4 packages and non-macOS Qt 5.6/5.9 packages.
+
+Since OpenSSL 1.0.2 Series has reached EOL, there will be no further Qt 4 and Qt 5.6 builds.  
+i.e., this build is the last build of these packages.  
+The build script and environment of Qt 4 and 5.6 series has been removed.
 
 ### 2019.12.26
 
@@ -57,7 +70,7 @@ OpenSSL 1.0.2 Series => OpenSSL 1.0.2t (affects Qt 4.8/5.6/5.9 Series)
 OpenSSL 1.1.1 Series => OpenSSL 1.1.1d (affects Qt 5.12/5.13 Series)  
 VS2017 => 15.9.17  
 VS2019 => 16.3.10  
-Andrid NDK => r20b
+Android NDK => r20b
 
 OS update pending.....  
 Win10 => 10.0.18363  
