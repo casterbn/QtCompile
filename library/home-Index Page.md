@@ -1,5 +1,10 @@
 # Fsu0413's Original Qt builds
 
+## GPG sign
+
+I am working on a method to GPG sign every package, but I didn't find a good method.
+I don't want to put the signature file besides the package, I think it will be a waste of upload step......
+
 ## Future plan on build environment
 
 Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change)  
