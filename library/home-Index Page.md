@@ -1,8 +1,29 @@
 # Fsu0413's Original Qt builds
 
+## Qt offering changes 2020
+
+Qt just announced [Qt offering changes 2020](https://www.qt.io/blog/qt-offering-changes-2020).  
+Following is my opinion of this blog.
+
+First of all, I have a Qt account, but I don’t understand why I need a Qt account to install the Qt development kit.  
+All are compiled from the same set of source code. It will not change even if you log in to your Qt account. It will not add any features to Qt. "This can help optimize Qt" is simply nonsense.
+
+LTS is only available for commercial license. So what is the license for the LTS source package?  
+If it is also only available for commercial licenses, Qt basically says goodbye to stable open source software.  
+Besides, their LTS support time is not too long. Windows has 10 years of support time, CentOS has 10 years of support time, and Qt has only 3 years...
+
+The offline installation package is only available for commercial licenses, which means that peoples in China can only find the time (usually before 8 am) when the network is available to install the Qt open source version with the online installation package.
+
+What kind of company is a small company?  
+Founding a shell company and using this company to buy Qt and distribute software, for only $499 per year? While other employees who work together use the open source version in private?  
+This will definitely lose money.
+
+I will continue my amateur job of compiling Qt. I hope Qt for MCUs will be open source soon.  
+The build of Qt 5.14.1 will start after 4th, Feb.
+
 ## GPG sign
 
-I am working on a method to GPG sign every package, but I didn't find a good method.
+I am working on a method to GPG sign every package, but I didn't find a good method.  
 I don't want to put the signature file besides the package, I think it will be a waste of upload step......
 
 ## Future plan on build environment
@@ -21,7 +42,7 @@ Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic wor
 
 ## IMPORTANT NOTES!!
 
-SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WINDOWS 8.1 AND LATER.  
+SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WINDOWS 8.1 AND LATER.
 
 ## Notes for this repo
 
@@ -32,6 +53,7 @@ SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WIN
 [here](?file=009-Misc/002-Current%20build%20status)
 
 ## Downloads
+
 Please refer to the content lists in the left area.
 
 ## Current failures
@@ -41,13 +63,11 @@ Please refer to the content lists in the left area.
 ## Update
 
 ### 2020.1.16
-
 Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.  
 Note that the packages are not re-compiled.  
 (Qt 5.12 packages will update later when OpenSSL 1.1 series or Qt 5.12 series updates)
 
 ### 2020.1.5
-
 Packages using OpenSSL 1.0.2 Series recompiled using OpenSSL 1.0.2u.  
 Including all Qt 4 packages and non-macOS Qt 5.6/5.9 packages.
 
@@ -56,21 +76,17 @@ i.e., this build is the last build of these packages.
 The build script and environment of Qt 4 and 5.6 series has been removed.
 
 ### 2019.12.26
-
 Windows 8.1 Update build environment has been finished, and Windows Server 2008 R2 build environment has been destructed.  
 Upload all packages which build on Windows 8.1.
 
 ### 2019.12.22
-
 Upload 5.9.9 and 5.14.0 packages.  
 (Qt 5.14.0 packages for android is missing due to an error during configure)
 
 ### 2019.12.5
-
 Upload all macOS packages.
 
 ### 2019.12.2
-
 Uploaded all rebuilt packages after my business trip.
 
 ### 2019.11.22
