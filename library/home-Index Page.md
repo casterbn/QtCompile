@@ -42,8 +42,8 @@ Please refer to the content lists in the left area.
 
 ### 2020.1.16
 
-Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.
-Note that the packages are not re-compiled.
+Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.  
+Note that the packages are not re-compiled.  
 (Qt 5.12 packages will update later when OpenSSL 1.1 series or Qt 5.12 series updates)
 
 ### 2020.1.5
