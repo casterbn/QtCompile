@@ -100,7 +100,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |Android|Windows 10 10.0.18363|ndk r10e|arm||android-g++|√|√|
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
-|↑|CentOS 7.7|↑|arm||android-g++|√|√|
+|↑|CentOS 8|↑|arm||android-g++|√|√|
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 |↑|macOS 10.15|↑|arm||android-g++|√|√|
@@ -131,13 +131,13 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|↑|CentOS 7.7|↑|arm||android-clang|√|√|
+|↑|CentOS 8|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|macOS 10.15|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|WebAssembly|Ubuntu 16.04|emscripten-1.38.16|-||wasm-emscripten|√|√|
+|WebAssembly|CentOS 8|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
 ## Qt 5.14.1 Series

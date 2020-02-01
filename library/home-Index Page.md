@@ -5,10 +5,6 @@
 I am working on a method to GPG sign every package, but I didn't find a good method.  
 I don't want to put the signature file besides the package, I think it will be a waste of upload step......
 
-## Future plan on build environment
-
-Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change) => ongoing  
-
 ## Disclaimer
 
 These binaries built by Fsu0413 are __TOTALLY UNTESTED__. Use at your own risk.
@@ -42,11 +38,13 @@ Please refer to the content lists in the left area.
 ## Update
 
 ### 2020.2.1
-I am switching CentOS 8, for both Android builds and WebAssembly builds.  
+I have switched to CentOS 8 for both Android builds and WebAssembly builds.  
 For now only 5.14 series is built successfully and uploaded.  
 CentOS 7 and Ubuntu 16.04 environment has been destructed.
 
 Upload Qt 5.14.1 Series.
+Rebuild all Linux hosted Android builds and WebAssembly builds, using CentOS 8.
+Since there is no host tools in OpenSSL packages, most of the OpenSSL packages are not rebuilt.
 
 ### 2020.1.16
 Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.  
