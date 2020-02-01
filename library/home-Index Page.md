@@ -35,7 +35,10 @@ Please refer to the content lists in the left area.
 
 [here](?file=009-Misc/003-Current%20failures)
 
-## Update
+## Update History
+
+### 2020.2.2
+Rebuild Qt 5.12.6 VS2017 & VS2019 versions using newer VS.
 
 ### 2020.2.1
 I have switched to CentOS 8 for both Android builds and WebAssembly builds.  

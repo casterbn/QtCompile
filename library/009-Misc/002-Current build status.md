@@ -43,7 +43,7 @@ Build Hosts:
 | Qt Version | -platform | Host | Compiler Version | QQtPatcher version |
 |-|
 |5.12.6|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.6.1|
-|5.12.6|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.17|0.6.1|
+|5.12.6|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.19|0.6.1|
 |5.12.6|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
 |5.12.6|macx-clang|macOS 10.15|AppleClang 11.0|0.6.1|
 |5.12.6|linux-g++|CentOS 8|GCC 8.3.1|0.6.1|
@@ -73,12 +73,12 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1d|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
 |1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
 |1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86|-static|
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86_64||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.17|x86_64|-static|
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.3.10|x86||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.3.10|x86_64||
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86||
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86|-static|
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86_64||
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86_64|-static|
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86||
+|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86_64||
 |1.1.1d|Android|CentOS 7.7|ndk r20b|arm|android-21|
 |1.1.1d|Android|CentOS 7.7|ndk r20b|arm64|android-21|
 |1.1.1d|Android|CentOS 7.7|ndk r20b|x86|android-21|
@@ -114,12 +114,12 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.17|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.19|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
-|↑|↑|VS2019 16.3.10|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.4.4|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
