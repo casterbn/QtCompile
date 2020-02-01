@@ -1,26 +1,5 @@
 # Fsu0413's Original Qt builds
 
-## Qt offering changes 2020
-
-Qt just announced [Qt offering changes 2020](https://www.qt.io/blog/qt-offering-changes-2020).  
-Following is my opinion of this blog.
-
-First of all, I have a Qt account, but I don’t understand why I need a Qt account to install the Qt development kit.  
-All are compiled from the same set of source code. It will not change even if you log in to your Qt account. It will not add any features to Qt. "This can help optimize Qt" is simply nonsense.
-
-LTS is only available for commercial license. So what is the license for the LTS source package?  
-If it is also only available for commercial licenses, Qt basically says goodbye to stable open source software.  
-Besides, their LTS support time is not too long. Windows has 10 years of support time, CentOS has 10 years of support time, and Qt has only 3 years...
-
-The offline installation package is only available for commercial licenses, which means that peoples in China can only find the time (usually before 8 am) when the network is available to install the Qt open source version with the online installation package.
-
-What kind of company is a small company?  
-Founding a shell company and using this company to buy Qt and distribute software, for only $499 per year? While other employees who work together use the open source version in private?  
-This will definitely lose money.
-
-I will continue my amateur job of compiling Qt. I hope Qt for MCUs will be open source soon.  
-The build of Qt 5.14.1 will start after 4th, Feb.
-
 ## GPG sign
 
 I am working on a method to GPG sign every package, but I didn't find a good method.  
@@ -28,7 +7,7 @@ I don't want to put the signature file besides the package, I think it will be a
 
 ## Future plan on build environment
 
-Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change)  
+Ubuntu 16.04 LTS (Which is used in building binaries for WebAssembly) => CentOS 8 (for no reason, I just want to make such change) => ongoing  
 
 ## Disclaimer
 
@@ -62,6 +41,13 @@ Please refer to the content lists in the left area.
 
 ## Update
 
+### 2020.2.1
+I am switching CentOS 8, for both Android builds and WebAssembly builds.  
+For now only 5.14 series is built successfully and uploaded.  
+CentOS 7 and Ubuntu 16.04 environment has been destructed.
+
+Upload Qt 5.14.1 Series.
+
 ### 2020.1.16
 Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.  
 Note that the packages are not re-compiled.  
@@ -73,89 +59,8 @@ Including all Qt 4 packages and non-macOS Qt 5.6/5.9 packages.
 
 Since OpenSSL 1.0.2 Series has reached EOL, there will be no further Qt 4 and Qt 5.6 builds.  
 i.e., this build is the last build of these packages.  
-The build script and environment of Qt 4 and 5.6 series has been removed.
+The build script and environment of Qt 4 and 5.6 series has been destructed.
 
-### 2019.12.26
-Windows 8.1 Update build environment has been finished, and Windows Server 2008 R2 build environment has been destructed.  
-Upload all packages which build on Windows 8.1.
+### Before 2020
 
-### 2019.12.22
-Upload 5.9.9 and 5.14.0 packages.  
-(Qt 5.14.0 packages for android is missing due to an error during configure)
-
-### 2019.12.5
-Upload all macOS packages.
-
-### 2019.12.2
-Uploaded all rebuilt packages after my business trip.
-
-### 2019.11.22
-Update pending after I return to China.....  
-Qt 5.12 Series => 5.12.6  
-Qt 5.13 Series => 5.13.2 -> prepare to migrate to Qt 5.14 Series  
-OpenSSL 1.0.2 Series => OpenSSL 1.0.2t (affects Qt 4.8/5.6/5.9 Series)  
-OpenSSL 1.1.1 Series => OpenSSL 1.1.1d (affects Qt 5.12/5.13 Series)  
-VS2017 => 15.9.17  
-VS2019 => 16.3.10  
-Android NDK => r20b
-
-OS update pending.....  
-Win10 => 10.0.18363  
-CentOS 7 => 7.7.1908 (Should there be a CentOS 8 environment? Currently Ubuntu 16.04 LTS is used to build the WebAssembly packages. If we change to CentOS 8 then it will become based on new software)  
-macOS 10.14 => 10.15
-
-There will be no further build of original Qt 4.8/5.6 after OpenSSL 1.0.2 Series gets EOL (will be at 2019.12.31)  
-There will be no further build of original Qt 5.9 after Qt 5.9 Series gets EOL (will be at 2020.5.31)  
-There will be no build on Windows 7 (Server 2008 R2) after Windows 7 gets EOL (will be at 2020.1.11), existing Windows 7 builds will migrate to Windows 8.1 (Server 2012 R2)
-
-### 2019.8.26
-A bug about packaging has been revealed. It affects all versions of Qt 5.12 or later.  
-The package of 5.12.5 will fix this issue.
-
-### 2019.8.3
-Re-create this site using amWiki.  
-Since there is a builtin content list when using amWiki, it no longer needs to write the downloadable content list manually by now.
-
-### 2019.7.13
-Rebuild __ALL__ packages using updated QQtPatcher due to a bug in QQtPatcher.  
-VS2017 is updated to 15.9.14.  
-VS2019 is updated to 16.1.6.
-
-### 2019.7.9
-WebAssembly packages are updated to Qt 5.12.4 and Qt 5.13.0.
-
-### 2019.7.8
-Android packages are updated to Qt 5.12.4 and Qt 5.13.0. <font color=red>__Used NDK r19c, although the file name is r20__</font>  
-Rebuild Android packages with OpenSSL 1.1.1c and 1.0.2s.  
-Page links to Android/Wasm packages are put into main page instead of the "XXX-series" pages.
-
-### 2019.7.6
-Windows packages are updated to Qt 5.13.0.
-
-### 2019.7.5
-Rebuild Windows packages with OpenSSL 1.1.1c and 1.0.2s.  
-Windows packages are updated to Qt 5.12.4.
-
-### 2019.5.26
-Rebuild VS2017/VS2019 packages with update VS version.
-
-### 2019.5.19
-Linux hosted Android packages rebuilt with updated configurations.  
-Upload Linux hosted WebAssembly package(No 's'...)  
-Since SF.net reworked, the files are reuploaded to SF.net.
-
-(Why can't I use SFTP to manage the files on OSDN?????)
-
-### 2019.5.15
-Windows packages rebuilt with updated configurations.  
-Since SF.net can't be accessed using China Telecom in Dalian, China, the files are reuploaded to OSDN.
-
-### 2019.4.22
-Upload 5.9.8 and 5.12.3 VS2015 packages.
-
-### 2019.4.20
-Finish 5.9.8 and 5.12.3 series.
-
-### 2019.4.19
-Removed All old packages.  
-Upload new packages built since Mar, 2019.
+[here](?file=009-Misc/004-Histories)

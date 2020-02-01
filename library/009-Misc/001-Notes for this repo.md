@@ -84,3 +84,23 @@ The source code of the distributed QQtPatcher is on [Github](https://github.com/
 
 Do not put the library in a directory which contains non-ascii character or spaces.   
 Bug will cause that the path of qmake cannot be properly parsed by Qt Creator.
+
+## Qt offering changes 2020
+
+Qt just announced [Qt offering changes 2020](https://www.qt.io/blog/qt-offering-changes-2020).  
+Following is my opinion of this blog.
+
+First of all, I have a Qt account, but I don’t understand why I need a Qt account to install the Qt development kit.  
+All are compiled from the same set of source code. It will not change even if you log in to your Qt account. It will not add any features to Qt. "This can help optimize Qt" is simply nonsense.
+
+LTS is only available for commercial license. So what is the license for the LTS source package?  
+If it is also only available for commercial licenses, Qt basically says goodbye to stable open source software.  
+Besides, their LTS support time is not too long. Windows has 10 years of support time, CentOS has 10 years of support time, and Qt has only 3 years...
+
+The offline installation package is only available for commercial licenses, which means that peoples in China can only find the time (usually before 8 am) when the network is available to install the Qt open source version with the online installation package.
+
+What kind of company is a small company?  
+Founding a shell company and using this company to buy Qt and distribute software, for only $499 per year? While other employees who work together use the open source version in private?  
+This will definitely lose money.
+
+I will continue my amateur job of compiling Qt. I hope Qt for MCUs will be open source soon.
