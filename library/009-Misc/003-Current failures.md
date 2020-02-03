@@ -37,3 +37,11 @@ I will use xcode 11 for compiling 5.12.7. Certain parts will be skipped if they 
 
 ~~See [QTBUG-80862](https://bugreports.qt.io/browse/QTBUG-80862)~~  
 ~~qmake is always using aarch64 compiler for checking the availability of OpenSSL libs and fails if target arch is not aarch64.~~
+
+## Default compressed package is often 1.5~2 times larger than manually compressed ones
+
+Notably in static `full` packages which often reach 150MB+.
+
+I use more dictionary size and word size in the compress setting dialog.
+Since it will use more memory, I didn't use it in scripts.
+I will try to add the dictionary size and word size option in the compress command line when I have time.
