@@ -27,7 +27,7 @@ I have decided not provide LLVM-based qdoc until I find a way to static link it.
 ## Qt 5.9.9 and 5.12.6 cannot be compiled using xcode 11
 
 Some parts don't compile.  
-Static lite version and host tools compiles, the cross compiled version compiles.  
+Static `lite` version and host tools compiles, the cross compiled version compiles.  
 5.9 series fails on QtConnectivity, while 5.12 series fails on QtWebEngine.
 
 I think that 5.12 series should be fixed soon, but 5.9 series may not be fixed.  

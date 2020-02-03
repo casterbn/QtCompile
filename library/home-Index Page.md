@@ -54,7 +54,7 @@ Rebuild all Linux hosted Android builds and WebAssembly builds, using CentOS 8.
 Since there is no host tools in OpenSSL packages, most of the OpenSSL packages are not rebuilt.
 
 ### 2020.1.16
-Recompress the Qt 5.6 static full packages due to a script bug which causes the missing of OpenSSL libraries.  
+Recompress the Qt 5.6 static `full` packages due to a script bug which causes the missing of OpenSSL libraries.  
 Note that the packages are not re-compiled.  
 (Qt 5.12 packages will update later when OpenSSL 1.1 series or Qt 5.12 series updates)
 
