@@ -37,6 +37,10 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.2.3
+Add new configurations of static `full` packages of MinGW builds of Qt 5.12 Series.  
+Upload Qt 5.12.6 MinGW static `full` builds.
+
 ### 2020.2.2
 Rebuild Qt 5.12.6 VS2017 & VS2019 versions using newer VS.
 
@@ -45,8 +49,8 @@ I have switched to CentOS 8 for both Android builds and WebAssembly builds.
 For now only 5.14 series is built successfully and uploaded.  
 CentOS 7 and Ubuntu 16.04 environment has been destructed.
 
-Upload Qt 5.14.1 Series.
-Rebuild all Linux hosted Android builds and WebAssembly builds, using CentOS 8.
+Upload Qt 5.14.1 Series.  
+Rebuild all Linux hosted Android builds and WebAssembly builds, using CentOS 8.  
 Since there is no host tools in OpenSSL packages, most of the OpenSSL packages are not rebuilt.
 
 ### 2020.1.16

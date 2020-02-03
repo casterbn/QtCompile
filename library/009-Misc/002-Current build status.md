@@ -122,7 +122,9 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|VS2019 16.4.4|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
+|↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
 |Linux|CentOS 8|GCC 8.3.1|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
 |macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
