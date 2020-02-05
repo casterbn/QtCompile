@@ -16,10 +16,10 @@
 - [5.9.9 for Android](?file=005-5.9 Series/003-5.9.9 for Android "5.9.9 for Android")
 
 ##### 5.12 Series
-- [5.12.6 for Windows](?file=006-5.12 Series/001-5.12.6 for Windows "5.12.6 for Windows")
-- [5.12.6 for macOS](?file=006-5.12 Series/002-5.12.6 for macOS "5.12.6 for macOS")
-- [5.12.6 for Android](?file=006-5.12 Series/003-5.12.6 for Android "5.12.6 for Android")
-- [5.12.6 for WebAssembly](?file=006-5.12 Series/004-5.12.6 for WebAssembly "5.12.6 for WebAssembly")
+- [5.12.7 for Windows](?file=006-5.12 Series/001-5.12.7 for Windows "5.12.7 for Windows")
+- [5.12.7 for macOS](?file=006-5.12 Series/002-5.12.7 for macOS "5.12.7 for macOS")
+- [5.12.7 for Android](?file=006-5.12 Series/003-5.12.7 for Android "5.12.7 for Android")
+- [5.12.7 for WebAssembly](?file=006-5.12 Series/004-5.12.7 for WebAssembly "5.12.7 for WebAssembly")
 
 ##### 5.14 Series
 - [5.14.1 for Windows](?file=008-5.14 Series/001-5.14.1 for Windows "5.14.1 for Windows")

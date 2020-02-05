@@ -37,6 +37,12 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.2.5
+Upload Qt 5.12.7 Series. (Qt 5.12.7 actually released on 31st, Jan., but I didn't mention it....)  
+Note: QQtPatcher has got an update (to 0.7.0) after the build completed.  
+Since most of the modifications affects Windows builds, I only manually recompressed Windows packages.  
+Other packages are not recompressed.
+
 ### 2020.2.3
 Add new configurations of static `full` packages of MinGW builds of Qt 5.12 Series.  
 Upload Qt 5.12.6 MinGW static `full` builds.

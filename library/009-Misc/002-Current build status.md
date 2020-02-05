@@ -29,24 +29,24 @@ This tool won't be thoroughly tested on 5.13 and 5.14.
 |5.9.9|macx-clang|-||√|
 |5.9.9|linux-g++|-||√|
 |5.9.9|linux-g++|android-g++||√|
-|5.12.6|win32-msvc|-|VS2015, VS2017, VS2019|√|
-|5.12.6|win32-g++|-||√|
-|5.12.6|win32-g++|android-clang||√|
-|5.12.6|macx-clang|-||√|
-|5.12.6|macx-clang|wasm-emscripten|||
-|5.12.6|linux-g++|-||√|
-|5.12.6|linux-g++|android-clang||√|
-|5.12.6|linux-g++|wasm-emscripten||√|
+|5.12.7|win32-msvc|-|VS2015, VS2017, VS2019|√|
+|5.12.7|win32-g++|-||√|
+|5.12.7|win32-g++|android-clang||√|
+|5.12.7|macx-clang|-||√|
+|5.12.7|macx-clang|wasm-emscripten|||
+|5.12.7|linux-g++|-||√|
+|5.12.7|linux-g++|android-clang||√|
+|5.12.7|linux-g++|wasm-emscripten||√|
 
 Build Hosts:
 
 | Qt Version | -platform | Host | Compiler Version | QQtPatcher version |
 |-|
-|5.12.6|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.6.1|
-|5.12.6|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.19|0.6.1|
-|5.12.6|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
-|5.12.6|macx-clang|macOS 10.15|AppleClang 11.0|0.6.1|
-|5.12.6|linux-g++|CentOS 8|GCC 8.3.1|0.6.1|
+|5.12.7|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.7.0|
+|5.12.7|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.19|0.7.0|
+|5.12.7|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
+|5.12.7|macx-clang|macOS 10.15|AppleClang 11.0|0.6.1|
+|5.12.7|linux-g++|CentOS 8|GCC 8.3.1|0.6.1|
 
 ## OpenSSL Status
 
@@ -107,7 +107,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 
-## Qt 5.12.6 Series
+## Qt 5.12.7 Series
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
@@ -126,10 +126,10 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
 |Linux|CentOS 8|GCC 8.3.1|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
-|macOS|macOS 10.14|AppleClang 10.0|x86_64|-framework|macx-clang|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
-|↑|macOS 10.15|AppleClang 11.0|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
+|↑|macOS 10.14|AppleClang 10.0|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
