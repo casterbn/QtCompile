@@ -37,6 +37,9 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.2.6
+Upload Windows on ARM64 cross compile. (for now it only supports Qt 5.12 and later using VS2017.)
+
 ### 2020.2.5
 Upload Qt 5.12.7 Series. (Qt 5.12.7 actually released on 31st, Jan., but I didn't mention it....)  
 Note: QQtPatcher has got an update (to 0.7.0) after the build completed.  
