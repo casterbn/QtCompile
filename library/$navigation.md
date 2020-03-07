@@ -1,14 +1,15 @@
 
 #### [Index Page](?file=home-Index Page)
 
-##### 4.8 Series
-- [4.8.7 for Windows](?file=001-4.8 Series/001-4.8.7 for Windows "4.8.7 for Windows")
-- [4.8.7 for macOS](?file=001-4.8 Series/002-4.8.7 for macOS "4.8.7 for macOS")
-
-##### 5.6 Series
-- [5.6.3 for Windows](?file=002-5.6 Series/001-5.6.3 for Windows "5.6.3 for Windows")
-- [5.6.3 for macOS](?file=002-5.6 Series/002-5.6.3 for macOS "5.6.3 for macOS")
-- [5.6.3 for Android](?file=002-5.6 Series/003-5.6.3 for Android "5.6.3 for Android")
+##### Past LTS Series
+- **4.8 Series**
+    - [4.8.7 for Windows](?file=001-Past LTS Series/001-4.8 Series/001-4.8.7 for Windows "4.8.7 for Windows")
+    - [4.8.7 for macOS](?file=001-Past LTS Series/001-4.8 Series/002-4.8.7 for macOS "4.8.7 for macOS")
+- **5.6 Series**
+    - [5.6.3 for Windows](?file=001-Past LTS Series/002-5.6 Series/001-5.6.3 for Windows "5.6.3 for Windows")
+    - [5.6.3 for macOS](?file=001-Past LTS Series/002-5.6 Series/002-5.6.3 for macOS "5.6.3 for macOS")
+    - [5.6.3 for Android](?file=001-Past LTS Series/002-5.6 Series/003-5.6.3 for Android "5.6.3 for Android")
+- [Notes](?file=001-Past LTS Series/003-Notes "Notes")
 
 ##### 5.9 Series
 - [5.9.9 for Windows](?file=003-5.9 Series/001-5.9.9 for Windows "5.9.9 for Windows")
