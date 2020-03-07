@@ -7,24 +7,30 @@ Since `-openssl` and `-openssl-linked` both use this file, so we can only use `-
 
 I didn't try with Qt 5.14 series.
 
-## (_Resolved_) ~~Qt 5.12 with WebEngine can only be built by hand~~
-
-~~Using compile scripts will cause failure. Reason is unknown.~~
-
 ## Some of default compressed package is detected as malware by SF.net
 
 Recompress it by hand solves the problem.
-
-## (_Resolved in Qt 5.12.5 and 5.13.1_) ~~Android NDK r20 can't be used for building Qt~~
-
-~~`cannot find library -lc++`~~
 
 ## QDoc after Qt 5.12 cannot use static linked clang when using MSVC
 
 It uses "libclang_static.lib" but clang don't provide this one.  
 I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
-## Qt 5.9.9 ~~and~~ (_Resolved in Qt 5.12.7_) ~~5.12.6~~ cannot be compiled using xcode 11
+## Qt 5.14.1 can't be compiled using NDK r21
+
+It is said that Qt 5.14.2 resolved this issue.
+
+## Resolved failures
+
+### (_Resolved_) ~~Qt 5.12 with WebEngine can only be built by hand~~
+
+~~Using compile scripts will cause failure. Reason is unknown.~~
+
+### (_Resolved in Qt 5.12.5 and 5.13.1_) ~~Android NDK r20 can't be used for building Qt~~
+
+~~`cannot find library -lc++`~~
+
+### Qt 5.9.9 ~~and~~ (_Resolved in Qt 5.12.7_) ~~5.12.6~~ cannot be compiled using xcode 11
 
 Some parts don't compile.  
 Static `lite` version and host tools compiles, the cross compiled version compiles.  
@@ -33,15 +39,15 @@ Static `lite` version and host tools compiles, the cross compiled version compil
 I think that ~~5.12 series should be fixed soon, but~~ 5.9 series may not be fixed.  
 I ~~will use~~ used xcode 11 for compiling 5.12.7. QtWebEngine has successfully compiled. ~~Certain parts will be skipped if they don't compile.~~
 
-## (_Resolved in Qt 5.14.1_) ~~Qt 5.14.0 cannot be compiled for Android with linked OpenSSL~~
+### (_Resolved in Qt 5.14.1_) ~~Qt 5.14.0 cannot be compiled for Android with linked OpenSSL~~
 
 ~~See [QTBUG-80862](https://bugreports.qt.io/browse/QTBUG-80862)~~  
 ~~qmake is always using aarch64 compiler for checking the availability of OpenSSL libs and fails if target arch is not aarch64.~~
 
-## Default compressed package is often 1.5~2 times larger than manually compressed ones
+### (_Resolved_ by adding some options in command line) ~~Default compressed package is often 1.5~2 times larger than manually compressed ones~~
 
-Notably in static `full` packages which often reach 150MB+.
+~~Notably in static `full` packages which often reach 150MB+.~~
 
-I use more dictionary size and word size in the compress setting dialog.
-Since it will use more memory, I didn't use it in scripts.
-I will try to add the dictionary size and word size option in the compress command line when I have time.
+~~I use more dictionary size and word size in the compress setting dialog.~~
+~~Since it will use more memory, I didn't use it in scripts.~~
+~~I will try to add the dictionary size and word size option in the compress command line when I have time.~~

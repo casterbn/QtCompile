@@ -9,7 +9,8 @@ A valid qbp.json is needed for patching Qt 4 Series since `qmake -query` don't o
 
 Qt 5.14 is relocatable as for the [New Features in Qt 5.14](https://wiki.qt.io/New_Features_in_Qt_5.14), so it seems like Qt 5 after 5.14 won't need QQtPatcher anymore.  
 I delivered QQtPatcher for earlier version of 5.14 (as for the fact that I forgot to modify QQtPatcher related code in compile scripts).  
-This tool won't be thoroughly tested on 5.13 and 5.14.
+This tool won't be thoroughly tested on 5.13.  
+I announced that QQtPatcher will not support Qt 5 after 5.14.
 
 | Qt Version | -platform | -xplatform | Notes | Tested |
 |-|
@@ -81,11 +82,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|arm64||
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86||
 |1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86_64||
-|1.1.1d|Android|CentOS 7.7|ndk r20b|arm|android-21, -static|
-|1.1.1d|Android|CentOS 7.7|ndk r20b|arm64|android-21, -static|
-|1.1.1d|Android|CentOS 7.7|ndk r20b|x86|android-21, -static|
-|1.1.1d|Android|CentOS 7.7|ndk r20b|x86_64|android-21, -static|
-|1.1.1d|Android|CentOS 7.7|ndk r20b|ALL|android-21, -static|
+|1.1.1d|Android|CentOS 8|ndk r21|arm|android-21, -static|
+|1.1.1d|Android|CentOS 8|ndk r21|arm64|android-21, -static|
+|1.1.1d|Android|CentOS 8|ndk r21|x86|android-21, -static|
+|1.1.1d|Android|CentOS 8|ndk r21|x86_64|android-21, -static|
+|1.1.1d|Android|CentOS 8|ndk r21|ALL|android-21, -static|
 
 ## Qt 5.9.9 Series
 
@@ -133,7 +134,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |↑|macOS 10.14|AppleClang 10.0|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
-|Android|Windows 10 10.0.18363|ndk r20b|arm||android-clang|√|√|
+|Android|Windows 10 10.0.18363|ndk r21|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|CentOS 8|↑|arm||android-clang|√|√|
@@ -161,6 +162,34 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.18363|ndk r20b|ALL||android-clang|√|√|
+|↑|CentOS 8|↑|ALL||android-clang|√|√|
+|↑|macOS 10.15|↑|ALL||android-clang|√|√|
+|WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
+|↑|CentOS 8|↑|-|-feature-threads|wasm-emscripten|√|√|
+|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
+
+## Qt 5.15.0 Series (Pre-release version of next LTS)
+
+| Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
+|-|
+|Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.20|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
+|↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
+|↑|↑|VS2019 16.4.5|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
+|↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
+|↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
+|↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
+|↑|↑|↑|x86_64||win32-g++|√|√|
+|↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|Android|Windows 10 10.0.18363|ndk r21|ALL||android-clang|√|√|
 |↑|CentOS 8|↑|ALL||android-clang|√|√|
 |↑|macOS 10.15|↑|ALL||android-clang|√|√|
 |WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
