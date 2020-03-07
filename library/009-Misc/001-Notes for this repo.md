@@ -46,25 +46,35 @@ Don't compare laziness with me. I feel lazy for comparing.
 * Other reasons  
 I have no idea if there is any other reasons.
 
-## Notes on the distributed compressed files
+## Notes on the distributed compressed files (Updated 2020.3.6)
 
-Archive files on Windows host are compressed in 7z format using LZMA2 Algorithm,   
-7z users should update their 7z to 9.20 or later,   
-WinRAR users should update their WinRAR to 4.00 or later,   
-users of other compression softwares should make sure that LZMA2 is supported by your software.
-
-Archive files on Linux use GNU tar. Archive files on macOS use bsdtar. They are called as:
+Archive files on Windows host are compressed using 7z in 7z format using LZMA2 Algorithm.  
+The command line of generating the compressed file is like:
 ```
-tar -cJf xxx.tar.xz xxx/
+7z a -t7z -m0=LZMA2:d256m:fb273 -mmt=3 -myx -mqs -ms=on -- xxx.7z xxx
 ```
 
-## Difference of this Qt and offically distributed Qt
+Archive files on Linux use GNU tar. Archive files on macOS use bsdtar.  
+In addition, we use 7z for the xz compression.  
+The command line of generating the compressed file is like:
+```
+tar -cf - xxx | 7zr a -txz -m0=LZMA2:d256m:fb273 -mmt=3 -myx -si -- xxx.tar.xz
+```
+
+Make sure your uncompresser supports LZMA2 algorithm. For example:  
+7z users should upgrade your 7z to 9.20 or later.  
+WinRAR users should upgrade your WinRAR to 4.00 or later.  
+Other decompresser users should query for their latest version, since it may support LZMA2 algorithm.
+
+## Difference of this Qt and offically distributed Qt (Updated 2020.3.6)
+
+There is **NO NEED TO LOGIN Qt ACCOUNT**!!! By doing this gets rid of the nonsense of "This can help optimize Qt".
 
 All Qt builds here have been configured with -no-icu, because I thought that the ICU is useless for common users, and it is rather a big thing.  
 
-Using linked OpenSSL support for most packages.
+Using linked OpenSSL support for packages which can't use platform native way for creating SSL sockets.
 Windows builds before and including Qt 5.12 are using linked OpenSSL to dynamic(shared) libraries, Android builds are using statically linked OpenSSL.  
-macOS builds are using SecureTransport instead of OpenSSL.
+macOS builds are using SecureTransport instead of OpenSSL.  
 Windows builds after and including Qt 5.13 are using SChannel instead of OpenSSL.
 
 No debug libs, which cuts more than a half of the size of the whole Qt package.
@@ -91,7 +101,7 @@ Qt just announced [Qt offering changes 2020](https://www.qt.io/blog/qt-offering-
 Following is my opinion of this blog.
 
 First of all, I have a Qt account, but I don’t understand why I need a Qt account to install the Qt development kit.  
-All are compiled from the same set of source code. It will not change even if you log in to your Qt account. It will not add any features to Qt. "This can help optimize Qt" is simply nonsense.
+All files are compiled from the same set of source code. It will not change even if you log in to your Qt account. It will not add any features to Qt. "This can help optimize Qt" is simply nonsense.
 
 LTS is only available for commercial license. So what is the license for the LTS source package?  
 If it is also only available for commercial licenses, Qt basically says goodbye to stable open source software.  
