@@ -21,11 +21,11 @@ SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WIN
 
 ## Notes for this repo
 
-[here](?file=009-Misc/001-Notes%20for%20this%20repo)
+[here](?file=999-Misc/001-Notes%20for%20this%20repo)
 
 ## Current build status
 
-[here](?file=009-Misc/002-Current%20build%20status)
+[here](?file=999-Misc/002-Current%20build%20status)
 
 ## Downloads
 
@@ -33,7 +33,7 @@ Please refer to the content lists in the left area.
 
 ## Current failures
 
-[here](?file=009-Misc/003-Current%20failures)
+[here](?file=999-Misc/003-Current%20failures)
 
 ## Update History
 
@@ -81,4 +81,4 @@ The build script and environment of Qt 4 and 5.6 series has been destructed.
 
 ### Before 2020
 
-[here](?file=009-Misc/004-Histories)
+[here](?file=999-Misc/004-Histories)
