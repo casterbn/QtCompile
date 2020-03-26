@@ -37,6 +37,10 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.3.26
+Upload 5.15.0-beta2 series. (Static `full` version don't compile)
+Mirror this site on Coding.net for faster browsing in China.
+
 ### 2020.3.6
 Upload 5.12.7 Android series with NDK r21.  
 Upload 5.15.0-beta1 series. (VS2017 and VS2019 shared builds are not provided due to QtWebEngine compile failure)
@@ -66,19 +70,6 @@ Upload Qt 5.14.1 Series.
 Rebuild all Linux hosted Android builds and WebAssembly builds, using CentOS 8.  
 Since there is no host tools in OpenSSL packages, most of the OpenSSL packages are not rebuilt.
 
-### 2020.1.16
-Recompress the Qt 5.6 static `full` packages due to a script bug which causes the missing of OpenSSL libraries.  
-Note that the packages are not re-compiled.  
-(Qt 5.12 packages will update later when OpenSSL 1.1 series or Qt 5.12 series updates)
-
-### 2020.1.5
-Packages using OpenSSL 1.0.2 Series recompiled using OpenSSL 1.0.2u.  
-Including all Qt 4 packages and non-macOS Qt 5.6/5.9 packages.
-
-Since OpenSSL 1.0.2 Series has reached EOL, there will be no further Qt 4 and Qt 5.6 builds.  
-i.e., this build is the last build of these packages.  
-The build script and environment of Qt 4 and 5.6 series has been destructed.
-
-### Before 2020
+### Before Feb. 2020
 
 [here](?file=999-Misc/004-Histories)

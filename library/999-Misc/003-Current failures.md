@@ -51,3 +51,8 @@ I ~~will use~~ used xcode 11 for compiling 5.12.7. QtWebEngine has successfully 
 ~~I use more dictionary size and word size in the compress setting dialog.~~
 ~~Since it will use more memory, I didn't use it in scripts.~~
 ~~I will try to add the dictionary size and word size option in the compress command line when I have time.~~
+
+### (_Resolved_) ~~QtWebEngine does not compile on 5.15.0 beta versions on Windows platforms~~
+
+It was because of the 260-character limitation on Windows.
+Change the extract path on Windows solves this problem.

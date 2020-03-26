@@ -1,5 +1,18 @@
 # Previous Histories
 
+## 2020.1.16
+Recompress the Qt 5.6 static `full` packages due to a script bug which causes the missing of OpenSSL libraries.  
+Note that the packages are not re-compiled.  
+(Qt 5.12 packages will update later when OpenSSL 1.1 series or Qt 5.12 series updates)
+
+## 2020.1.5
+Packages using OpenSSL 1.0.2 Series recompiled using OpenSSL 1.0.2u.  
+Including all Qt 4 packages and non-macOS Qt 5.6/5.9 packages.
+
+Since OpenSSL 1.0.2 Series has reached EOL, there will be no further Qt 4 and Qt 5.6 builds.  
+i.e., this build is the last build of these packages.  
+The build script and environment of Qt 4 and 5.6 series has been destructed.
+
 ## 2019.12.26
 Windows 8.1 Update build environment has been finished, and Windows Server 2008 R2 build environment has been destructed.  
 Upload all packages which build on Windows 8.1.

@@ -70,23 +70,23 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.0.2u|Android|CentOS 8|ndk r10e|arm|android-16, -static|
 |1.0.2u|Android|CentOS 7.7|ndk r10e|arm64|android-21, -static|
 |1.0.2u|Android|CentOS 8|ndk r10e|x86|android-16, -static|
-|1.1.1d|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
-|1.1.1d|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-static|
-|1.1.1d|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
-|1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
-|1.1.1d|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86|-static|
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86_64||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|x86_64|-static|
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2017 15.9.19|arm64||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86||
-|1.1.1d|Windows|Windows 10 10.0.18363|VS2019 16.4.4|x86_64||
-|1.1.1d|Android|CentOS 8|ndk r21|arm|android-21, -static|
-|1.1.1d|Android|CentOS 8|ndk r21|arm64|android-21, -static|
-|1.1.1d|Android|CentOS 8|ndk r21|x86|android-21, -static|
-|1.1.1d|Android|CentOS 8|ndk r21|x86_64|android-21, -static|
-|1.1.1d|Android|CentOS 8|ndk r21|ALL|android-21, -static|
+|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
+|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-static|
+|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
+|1.1.1e|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
+|1.1.1e|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86||
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86|-static|
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64||
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64|-static|
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|arm64||
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2019 16.5.0|x86||
+|1.1.1e|Windows|Windows 10 10.0.18363|VS2019 16.5.0|x86_64||
+|1.1.1e|Android|CentOS 8.1|ndk r21|arm|android-21, -static|
+|1.1.1e|Android|CentOS 8.1|ndk r21|arm64|android-21, -static|
+|1.1.1e|Android|CentOS 8.1|ndk r21|x86|android-21, -static|
+|1.1.1e|Android|CentOS 8.1|ndk r21|x86_64|android-21, -static|
+|1.1.1e|Android|CentOS 8.1|ndk r21|ALL|android-21, -static|
 
 ## Qt 5.9.9 Series
 
@@ -174,12 +174,12 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.20|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.21|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
-|↑|↑|VS2019 16.4.5|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|VS2019 16.5.0|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
@@ -190,10 +190,10 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.18363|ndk r21|ALL||android-clang|√|√|
-|↑|CentOS 8|↑|ALL||android-clang|√|√|
+|↑|CentOS 8.1|↑|ALL||android-clang|√|√|
 |↑|macOS 10.15|↑|ALL||android-clang|√|√|
 |WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
-|↑|CentOS 8|↑|-|-feature-threads|wasm-emscripten|√|√|
+|↑|CentOS 8.1|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
 
 ## Qt 6.0.0 Series
