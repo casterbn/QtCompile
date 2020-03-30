@@ -38,7 +38,7 @@ Please refer to the content lists in the left area.
 ## Update History
 
 ### 2020.3.26
-Upload 5.15.0-beta2 series. (Static `full` version don't compile)
+Upload 5.15.0-beta2 series. (Static `full` version don't compile)  
 Mirror this site on Coding.net for faster browsing in China.
 
 ### 2020.3.6
