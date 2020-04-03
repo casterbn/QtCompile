@@ -146,21 +146,21 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |WebAssembly|CentOS 8|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
-## Qt 5.14.1 Series
+## Qt 5.14.2 Series
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.19|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.21|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
-|↑|↑|VS2019 16.4.4|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.5.1|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |Android|Windows 10 10.0.18363|ndk r20b|ALL||android-clang|√|√|
 |↑|CentOS 8|↑|ALL||android-clang|√|√|
 |↑|macOS 10.15|↑|ALL||android-clang|√|√|

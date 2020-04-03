@@ -16,9 +16,9 @@ Recompress it by hand solves the problem.
 It uses "libclang_static.lib" but clang don't provide this one.  
 I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
-## Qt 5.14.1 can't be compiled using NDK r21
+## macOS version of QtWebEngine 5.14.2 does not compile
 
-It is said that Qt 5.14.2 resolved this issue.
+gn compile failed on macOS using xcode 11.4.
 
 ## Resolved failures
 
@@ -56,3 +56,7 @@ I ~~will use~~ used xcode 11 for compiling 5.12.7. QtWebEngine has successfully 
 
 It was because of the 260-character limitation on Windows.
 Change the extract path on Windows solves this problem.
+
+## (_Resolved_) ~~Qt 5.14.1 can't be compiled using NDK r21~~
+
+~~It is said that~~ Qt 5.14.2 resolved this issue.

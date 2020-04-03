@@ -23,10 +23,10 @@
 - [5.12.7 for WebAssembly](?file=004-5.12 Series/004-5.12.7 for WebAssembly "5.12.7 for WebAssembly")
 
 ##### 5.14 Series
-- [5.14.1 for Windows](?file=005-5.14 Series/001-5.14.1 for Windows "5.14.1 for Windows")
+- [5.14.2 for Windows](?file=005-5.14 Series/001-5.14.2 for Windows "5.14.2 for Windows")
 - [5.14.1 for macOS](?file=005-5.14 Series/002-5.14.1 for macOS "5.14.1 for macOS")
-- [5.14.1 for Android](?file=005-5.14 Series/003-5.14.1 for Android "5.14.1 for Android")
-- [5.14.1 for WebAssembly](?file=005-5.14 Series/004-5.14.1 for WebAssembly "5.14.1 for WebAssembly")
+- [5.14.2 for Android](?file=005-5.14 Series/003-5.14.2 for Android "5.14.2 for Android")
+- [5.14.2 for WebAssembly](?file=005-5.14 Series/004-5.14.2 for WebAssembly "5.14.2 for WebAssembly")
 
 ##### 5.15 Series
 - [5.15 for Windows](?file=006-5.15 Series/001-5.15 for Windows "5.15 for Windows")
