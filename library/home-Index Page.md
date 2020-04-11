@@ -15,6 +15,13 @@ I will reconsider attaching a hard disk and mount it on the computer which runs 
 It was because of my new hard disk installed on this computer.  
 This reinstallation affects Windows MSVC builds since MSVC compilers and Windows SDKs are reinstalled.
 
+## Website mirror
+
+Since GitHub Pages is slow in China, I made a mirror website using a Chinese code hosting service called Coding.
+
+[GitHub](https://fsu0413.github.io/QtCompile/): Global  
+[Coding](https://alyack.coding-pages.com/): The People's Republic of China
+
 ## GPG sign
 
 I am working on a method to GPG sign every package, but I didn't find a good method.  
