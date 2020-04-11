@@ -30,25 +30,25 @@ I announced that QQtPatcher will not support Qt 5 after 5.14.
 |5.9.9|macx-clang|-||√|
 |5.9.9|linux-g++|-||√|
 |5.9.9|linux-g++|android-g++||√|
-|5.12.7|win32-msvc|-|VS2015, VS2017, VS2019|√|
-|5.12.7|win32-arm64-msvc2017|-|||
-|5.12.7|win32-g++|-||√|
-|5.12.7|win32-g++|android-clang||√|
-|5.12.7|macx-clang|-||√|
-|5.12.7|macx-clang|wasm-emscripten|||
-|5.12.7|linux-g++|-||√|
-|5.12.7|linux-g++|android-clang||√|
-|5.12.7|linux-g++|wasm-emscripten||√|
+|5.12.8|win32-msvc|-|VS2015, VS2017, VS2019|√|
+|5.12.8|win32-arm64-msvc2017|-|||
+|5.12.8|win32-g++|-||√|
+|5.12.8|win32-g++|android-clang||√|
+|5.12.8|macx-clang|-|||
+|5.12.8|macx-clang|wasm-emscripten|||
+|5.12.8|linux-g++|-||√|
+|5.12.8|linux-g++|android-clang||√|
+|5.12.8|linux-g++|wasm-emscripten||√|
 
 Build Hosts:
 
 | Qt Version | -platform | Host | Compiler Version | QQtPatcher version |
 |-|
-|5.12.7|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.7.0|
-|5.12.7|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.19|0.7.0|
-|5.12.7|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
-|5.12.7|macx-clang|macOS 10.15|AppleClang 11.0|0.6.1|
-|5.12.7|linux-g++|CentOS 8|GCC 8.3.1|0.6.1|
+|5.12.8|win32-msvc|Windows 8.1 Update|VS2015 Update 3|0.7.0|
+|5.12.8|win32-msvc|Windows 10 10.0.18363|VS2017 15.9.21|0.7.0|
+|5.12.8|macx-clang|macOS 10.14|AppleClang 10.0|0.6.1|
+|5.12.8|macx-clang|macOS 10.15|AppleClang 11.0|0.7.0|
+|5.12.8|linux-g++|CentOS 8|GCC 8.3.1|0.7.0|
 
 ## OpenSSL Status
 
@@ -70,23 +70,23 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.0.2u|Android|CentOS 8|ndk r10e|arm|android-16, -static|
 |1.0.2u|Android|CentOS 7.7|ndk r10e|arm64|android-21, -static|
 |1.0.2u|Android|CentOS 8|ndk r10e|x86|android-16, -static|
-|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
-|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-static|
-|1.1.1e|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
-|1.1.1e|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
-|1.1.1e|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86||
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86|-static|
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64||
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64|-static|
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2017 15.9.21|arm64||
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2019 16.5.0|x86||
-|1.1.1e|Windows|Windows 10 10.0.18363|VS2019 16.5.0|x86_64||
-|1.1.1e|Android|CentOS 8.1|ndk r21|arm|android-21, -static|
-|1.1.1e|Android|CentOS 8.1|ndk r21|arm64|android-21, -static|
-|1.1.1e|Android|CentOS 8.1|ndk r21|x86|android-21, -static|
-|1.1.1e|Android|CentOS 8.1|ndk r21|x86_64|android-21, -static|
-|1.1.1e|Android|CentOS 8.1|ndk r21|ALL|android-21, -static|
+|1.1.1f|Windows|Windows 8.1 Update|VS2015 Update 3|x86||
+|1.1.1f|Windows|Windows 8.1 Update|VS2015 Update 3|x86|-static|
+|1.1.1f|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
+|1.1.1f|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
+|1.1.1f|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86||
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86|-static|
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64||
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2017 15.9.21|x86_64|-static|
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2017 15.9.21|arm64||
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2019 16.5.3|x86||
+|1.1.1f|Windows|Windows 10 10.0.18363|VS2019 16.5.3|x86_64||
+|1.1.1f|Android|CentOS 8.1|ndk r21|arm|android-21, -static|
+|1.1.1f|Android|CentOS 8.1|ndk r21|arm64|android-21, -static|
+|1.1.1f|Android|CentOS 8.1|ndk r21|x86|android-21, -static|
+|1.1.1f|Android|CentOS 8.1|ndk r21|x86_64|android-21, -static|
+|1.1.1f|Android|CentOS 8.1|ndk r21|ALL|android-21, -static|
 
 ## Qt 5.9.9 Series
 
@@ -110,28 +110,28 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|arm64||android-g++|√|√|
 |↑|↑|↑|x86||android-g++|√|√|
 
-## Qt 5.12.7 Series
+## Qt 5.12.8 Series
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.19|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.21|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static|win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
-|↑|↑|VS2019 16.4.4|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.5.3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
 |Linux|CentOS 8|GCC 8.3.1|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |↑|macOS 10.14|AppleClang 10.0|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |Android|Windows 10 10.0.18363|ndk r21|arm||android-clang|√|√|
@@ -140,11 +140,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|CentOS 8|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|↑|macOS 10.15|↑|arm||android-clang|√|√|
+|↑|macOS 10.15|↑|arm||android-clang||√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |WebAssembly|CentOS 8|emscripten-1.38.16|-||wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
+|↑|macOS 10.15|↑|-||wasm-emscripten||√|
 
 ## Qt 5.14.2 Series
 

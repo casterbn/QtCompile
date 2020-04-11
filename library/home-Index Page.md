@@ -1,5 +1,20 @@
 # Fsu0413's Original Qt builds
 
+## IMPORTANT: Recent update of macOS breaks my build
+
+A recent update of macOS breaks everything on my local environment.  
+I don't know if I can fix the problem quickly.  
+Probably a reinstall of OS and a reconfigure of environment will be a solution.
+
+In fact the build environment of macOS computers is running on NFS because of the limited space of the hard disk on it.  
+I will reconsider attaching a hard disk and mount it on the computer which runs macOS, but I don't know if it is able to do so.  
+(Mac products are often able to ship with expensive high capacity SSDs which price is unaffordable for me by now)
+
+## IMPORTANT: Windows 10 environment has recently reinstalled
+
+It was because of my new hard disk installed on this computer.  
+This reinstallation affects Windows MSVC builds since MSVC compilers and Windows SDKs are reinstalled.
+
 ## GPG sign
 
 I am working on a method to GPG sign every package, but I didn't find a good method.  
@@ -37,8 +52,11 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.4.11
+Upload 5.12.8 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
+
 ### 2020.4.3
-Upload 5.14.2 series. (macOS versions are not provided due to QtWebEngine compile failure)
+Upload 5.14.2 series. (macOS versions are not provided due to QtWebEngine compile failure, __HOST ONLY__)
 
 ### 2020.3.26
 Upload 5.15.0-beta2 series. (Static `full` version don't compile)  

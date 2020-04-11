@@ -1,5 +1,10 @@
 # Build Failures about the original packages
 
+## All Qt Builds are broken on macOS 10.15.4 Update and xcode 11.4
+
+Reason is unknown for me by now.  
+I am considering reinstall the OS.
+
 ## Qt 5.12 wasm builds can't built with OpenSSL
 
 Both `qsslsocket_opensslpre11.cpp` and `qsslsocket_openssl11.cpp` includes `qlibrary.h` which is not usable in wasm platform.  
@@ -16,9 +21,9 @@ Recompress it by hand solves the problem.
 It uses "libclang_static.lib" but clang don't provide this one.  
 I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
-## macOS version of QtWebEngine 5.14.2 does not compile
+## (_Replaced by "All Qt Builds are broken on macOS 10.15.4 Update and xcode 11.4"_) ~~macOS version of QtWebEngine 5.14.2 does not compile~~
 
-gn compile failed on macOS using xcode 11.4.
+~~gn compile failed on macOS using xcode 11.4.~~
 
 ## Resolved failures
 
@@ -57,6 +62,6 @@ I ~~will use~~ used xcode 11 for compiling 5.12.7. QtWebEngine has successfully 
 It was because of the 260-character limitation on Windows.
 Change the extract path on Windows solves this problem.
 
-## (_Resolved_) ~~Qt 5.14.1 can't be compiled using NDK r21~~
+### (_Resolved_) ~~Qt 5.14.1 can't be compiled using NDK r21~~
 
 ~~It is said that~~ Qt 5.14.2 resolved this issue.
