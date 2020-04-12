@@ -174,27 +174,27 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.18363|VS2017 15.9.21|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|Windows 10 10.0.18363|VS2017 15.9.21|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
-|↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
-|↑|↑|VS2019 16.5.0|x86||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|VS2019 16.5.3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
-|↑|↑|↑|x86_64||win32-msvc|Will upload when QtWebEngine compiles|√|
+|↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
 |↑|Windows 8.1 Update|MinGW 7.3.0|x86||win32-g++|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |Android|Windows 10 10.0.18363|ndk r21|ALL||android-clang|√|√|
 |↑|CentOS 8.1|↑|ALL||android-clang|√|√|
-|↑|macOS 10.15|↑|ALL||android-clang|√|√|
-|WebAssembly|Windows 10 10.0.18363|emscripten-1.38.30|-|-feature-threads|wasm-emscripten|√|√|
+|↑|macOS 10.15|↑|ALL||android-clang||√|
+|WebAssembly|Windows 10 10.0.18363|emscripten-1.39.8|-|-feature-threads|wasm-emscripten|√|√|
 |↑|CentOS 8.1|↑|-|-feature-threads|wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
+|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten||√|
 
 ## Qt 6.0.0 Series
 

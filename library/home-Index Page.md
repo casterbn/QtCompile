@@ -59,6 +59,9 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.4.12
+Upload 5.15.0-beta3 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
+
 ### 2020.4.11
 Upload 5.12.8 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
 
