@@ -2,6 +2,10 @@
 
 ## IMPORTANT: Recent update of macOS breaks my build
 
+Update 4/25:  
+A reinstall of OS doesn't resolve the issue.  
+Hard drive attached to the macOS can be formatted by neither "Disk Utility" nor terminal.
+
 A recent update of macOS breaks everything on my local environment.  
 I don't know if I can fix the problem quickly.  
 Probably a reinstall of OS and a reconfigure of environment will be a solution.
@@ -9,11 +13,6 @@ Probably a reinstall of OS and a reconfigure of environment will be a solution.
 In fact the build environment of macOS computers is running on NFS because of the limited space of the hard disk on it.  
 I will reconsider attaching a hard disk and mount it on the computer which runs macOS, but I don't know if it is able to do so.  
 (Mac products are often able to ship with expensive high capacity SSDs which price is unaffordable for me by now)
-
-## IMPORTANT: Windows 10 environment has recently reinstalled
-
-It was because of my new hard disk installed on this computer.  
-This reinstallation affects Windows MSVC builds since MSVC compilers and Windows SDKs are reinstalled.
 
 ## Website mirror
 
@@ -58,6 +57,8 @@ Please refer to the content lists in the left area.
 [here](?file=999-Misc/003-Current%20failures)
 
 ## Update History
+### 2020.4.25
+Upload 5.15.0-beta4 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
 
 ### 2020.4.12
 Upload 5.15.0-beta3 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
