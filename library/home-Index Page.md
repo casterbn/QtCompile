@@ -57,6 +57,10 @@ Please refer to the content lists in the left area.
 [here](?file=999-Misc/003-Current%20failures)
 
 ## Update History
+### 2020.5.18
+Upload 5.15.0-rc2 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)  
+Update Win10 to 10.0.19041(2004)
+
 ### 2020.4.25
 Upload 5.15.0-beta4 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
 
@@ -69,14 +73,6 @@ Upload 5.12.8 series. (**All macOS version, including cross builds, are not uplo
 ### 2020.4.3
 Upload 5.14.2 series. (macOS versions are not provided due to QtWebEngine compile failure, __HOST ONLY__)
 
-### 2020.3.26
-Upload 5.15.0-beta2 series. (Static `full` version don't compile)  
-Mirror this site on Coding.net for faster browsing in China.
-
-### 2020.3.6
-Upload 5.12.7 Android series with NDK r21.  
-Upload 5.15.0-beta1 series. (VS2017 and VS2019 shared builds are not provided due to QtWebEngine compile failure)
-
-### Before Mar. 2020
+### Before Apr. 2020
 
 [here](?file=999-Misc/004-Histories)

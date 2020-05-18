@@ -1,5 +1,13 @@
 # Previous Histories
 
+## 2020.3.26
+Upload 5.15.0-beta2 series. (Static `full` version don't compile)  
+Mirror this site on Coding.net for faster browsing in China.
+
+## 2020.3.6
+Upload 5.12.7 Android series with NDK r21.  
+Upload 5.15.0-beta1 series. (VS2017 and VS2019 shared builds are not provided due to QtWebEngine compile failure)
+
 ## 2020.2.6
 Upload Windows on ARM64 cross compile. (for now it only supports Qt 5.12 and later using VS2017.)
 

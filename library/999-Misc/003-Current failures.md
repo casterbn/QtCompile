@@ -1,5 +1,10 @@
 # Build Failures about the original packages
 
+## Qt WebEngine 5.15.0-beta4 and later cannot be built using VS2017
+
+Reason is unknown for me by now.  
+Temporary disable the build of WebEngine for VS2017 version for now.
+
 ## All Qt Builds are broken on macOS 10.15.4 Update and xcode 11.4
 
 Reason is unknown for me by now.  
