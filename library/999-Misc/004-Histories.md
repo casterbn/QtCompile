@@ -1,5 +1,17 @@
 # Previous Histories
 
+## 2020.4.25
+Upload 5.15.0-beta4 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
+
+## 2020.4.12
+Upload 5.15.0-beta3 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
+
+## 2020.4.11
+Upload 5.12.8 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
+
+## 2020.4.3
+Upload 5.14.2 series. (macOS versions are not provided due to QtWebEngine compile failure, __HOST ONLY__)
+
 ## 2020.3.26
 Upload 5.15.0-beta2 series. (Static `full` version don't compile)  
 Mirror this site on Coding.net for faster browsing in China.

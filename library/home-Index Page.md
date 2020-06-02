@@ -2,6 +2,10 @@
 
 ## IMPORTANT: Recent update of macOS breaks my build
 
+Update 6/3:  
+I am switching the build environment to local hard disk instead of NFS.  
+It seems like the build system works well yesterday...
+
 Update 4/25:  
 A reinstall of OS doesn't resolve the issue.  
 Hard drive attached to the macOS can be formatted by neither "Disk Utility" nor terminal.
@@ -57,22 +61,22 @@ Please refer to the content lists in the left area.
 [here](?file=999-Misc/003-Current%20failures)
 
 ## Update History
+### 2020.6.3
+Upload 5.15.0 series. (**Except macOS hosted builds, which is currently compiling**)  
+Use MinGW-w64 to 8.1.0 for Qt 5.15.0 series, switch the build environment of MinGW 8.1.0 to Win10.  
+Upload 5.9.9 VS2017 builds for newer VS2017 compiler.  
+Upload 5.12.8 WebAssembly builds for newer emsdk definition.  
+Upload 5.12.8 Android builds for NDK r21b. (macOS only, other builds are compiling)  
+Remove 5.14 series except macOS ones. (macOS ones will be deleted once 5.15 finishes compiling)
+
+Since Qt 5.9 series has reached EOL, there will be no further Qt 5.9 builds.  
+i.e., this build is the last build of these packages.  
+The build script and environment of Qt 5.9 series has been destructed.
+
 ### 2020.5.18
 Upload 5.15.0-rc2 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)  
 Update Win10 to 10.0.19041(2004)
 
-### 2020.4.25
-Upload 5.15.0-beta4 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
-
-### 2020.4.12
-Upload 5.15.0-beta3 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
-
-### 2020.4.11
-Upload 5.12.8 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
-
-### 2020.4.3
-Upload 5.14.2 series. (macOS versions are not provided due to QtWebEngine compile failure, __HOST ONLY__)
-
-### Before Apr. 2020
+### Before May. 2020
 
 [here](?file=999-Misc/004-Histories)
