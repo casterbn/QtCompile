@@ -21,14 +21,11 @@
 - [5.12.8 for Android](?file=004-5.12 Series/003-5.12.8 for Android "5.12.8 for Android")
 - [5.12.8 for WebAssembly](?file=004-5.12 Series/004-5.12.8 for WebAssembly "5.12.8 for WebAssembly")
 
-##### 5.14 Series
-- [5.14.1 for macOS](?file=005-5.14 Series/002-5.14.1 for macOS "5.14.1 for macOS")
-
 ##### 5.15 Series
-- [5.15 for Windows](?file=006-5.15 Series/001-5.15 for Windows "5.15 for Windows")
-- [5.15 for macOS](?file=006-5.15 Series/002-5.15 for macOS "5.15 for macOS")
-- [5.15 for Android](?file=006-5.15 Series/003-5.15 for Android "5.15 for Android")
-- [5.15 for WebAssembly](?file=006-5.15 Series/004-5.15 for WebAssembly "5.15 for WebAssembly")
+- [5.15 for Windows](?file=005-5.15 Series/001-5.15 for Windows "5.15 for Windows")
+- [5.15 for macOS](?file=005-5.15 Series/002-5.15 for macOS "5.15 for macOS")
+- [5.15 for Android](?file=005-5.15 Series/003-5.15 for Android "5.15 for Android")
+- [5.15 for WebAssembly](?file=005-5.15 Series/004-5.15 for WebAssembly "5.15 for WebAssembly")
 
 ##### Misc
 - [Notes for this repo](?file=999-Misc/001-Notes for this repo "Notes for this repo")
