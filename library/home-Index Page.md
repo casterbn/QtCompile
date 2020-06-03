@@ -62,11 +62,11 @@ Please refer to the content lists in the left area.
 
 ## Update History
 ### 2020.6.3
-Upload 5.15.0 series. (**Except macOS hosted builds, which is currently compiling**)  
+Upload 5.15.0 series. (**Except macOS hosted builds, which encountered some issue while compiling**)  
 Use MinGW-w64 to 8.1.0 for Qt 5.15.0 series, switch the build environment of MinGW 8.1.0 to Win10.  
 Upload 5.9.9 VS2017 builds for newer VS2017 compiler.  
 Upload 5.12.8 WebAssembly builds for newer emsdk definition.  
-Upload 5.12.8 Android builds for NDK r21b. (macOS got a recent update to 10.15.5, will re-upload when build completes)  
+Upload 5.12.8 Android builds for NDK r21b.  
 Remove 5.14 series except macOS ones. (macOS ones will be deleted once 5.15 finishes compiling)
 
 Since Qt 5.9 series has reached EOL, there will be no further Qt 5.9 builds.  
