@@ -78,7 +78,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1g|Android|CentOS 8.1|ndk r21b|x86_64|android-21, -static|
 |1.1.1g|Android|CentOS 8.1|ndk r21b|ALL|android-21, -static|
 
-## Qt 5.12.8 Series
+## Qt 5.12.8 Series (Previous LTS release)
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
@@ -98,8 +98,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
 |Linux|CentOS 8|GCC 8.3.1|x86_64|-static|linux-g++|Won't upload, only used in QQtPatcher|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|_Compile failure_|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|_Compile failure_|√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
 |Android|Windows 10 10.0.19041|ndk r21b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
@@ -113,7 +113,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |WebAssembly|CentOS 8|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
-## Qt 5.15.0 Series
+## Qt 5.15.0 Series (Current LTS release for commerical version only)
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
@@ -130,8 +130,8 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86|-static(Full)|win32-g++|√|√|
 |↑|↑|↑|x86_64||win32-g++|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
-|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
-|↑|↑|↑|x86_64|-no-framework|macx-clang||√|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
+|↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
 |Android|Windows 10 10.0.19041|ndk r21b|ALL||android-clang|√|√|
 |↑|CentOS 8.1|↑|ALL||android-clang|√|√|
 |↑|macOS 10.15|↑|ALL||android-clang|√|√|
@@ -141,7 +141,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 ## Qt 6.0.0 Series
 
-Qt 6.0.0 will release sometime in the future.
+[First alpha release of Qt 6.0.0 is planned on Sep. 14th, 2020](https://lists.qt-project.org/pipermail/releasing/2020-May/002777.html).
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|

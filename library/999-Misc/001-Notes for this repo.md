@@ -1,13 +1,16 @@
 # Notes for this repo
 
-## Packaging
+## Packaging (Updated 2020.6.4)
 
 I use a set of scripts to do the compilation and packaging.  
 If you are interested in compilation method, please check the following GitHub repo.
 
 [GitHub](https://github.com/Fsu0413/Fs-scripts)
 
-(However unfortunely, this website is manually edited)
+However unfortunely, this website is manually edited.  
+Source of this site is:
+
+[GitHub](https://github.com/Fsu0413/QtCompile)
 
 ## Notes on static builds
 
@@ -46,7 +49,7 @@ Don't compare laziness with me. I feel lazy for comparing.
 * Other reasons  
 I have no idea if there is any other reasons.
 
-## Notes on the distributed compressed files (Updated 2020.3.6)
+## Notes on the distributed compressed files (Updated 2020.6.4)
 
 Archive files on Windows host are compressed using 7z in 7z format using LZMA2 Algorithm.  
 The command line of generating the compressed file is like:
@@ -65,6 +68,10 @@ Make sure your uncompresser supports LZMA2 algorithm. For example:
 7z users should upgrade your 7z to 9.20 or later.  
 WinRAR users should upgrade your WinRAR to 4.00 or later.  
 Other decompresser users should query for their latest version, since it may support LZMA2 algorithm.
+
+I just noticed that Arch Linux and MSYS2 switched to zst for their package manager.  
+Only recent GNU tar (1.31 or later) and recent libarchive (a.k.a. bsdtar, 3.3.3 or later) directly supports .tar.zst compress method.  
+I will not use zst because the compress ratio is not as good as LZMA2(xz).
 
 ## Difference of this Qt and offically distributed Qt (Updated 2020.3.6)
 

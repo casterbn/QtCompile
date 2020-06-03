@@ -1,5 +1,10 @@
 # Build Failures about the original packages
 
+## Qt WebEngine 5.12.8 cna't be built using xcode 11.4 or later
+
+See [QTBUG-83318](https://bugreports.qt.io/browse/QTBUG-83318)  
+We have to wait for 5.12.9.
+
 ## Qt WebEngine 5.15.0-beta4 and later cannot be built using VS2017
 
 Reason is unknown for me by now.  
