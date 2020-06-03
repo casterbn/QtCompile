@@ -1,23 +1,5 @@
 # Fsu0413's Original Qt builds
 
-## IMPORTANT: Recent update of macOS breaks my build
-
-Update 6/3:  
-I am switching the build environment to local hard disk instead of NFS.  
-It seems like the build system works well yesterday...
-
-Update 4/25:  
-A reinstall of OS doesn't resolve the issue.  
-Hard drive attached to the macOS can be formatted by neither "Disk Utility" nor terminal.
-
-A recent update of macOS breaks everything on my local environment.  
-I don't know if I can fix the problem quickly.  
-Probably a reinstall of OS and a reconfigure of environment will be a solution.
-
-In fact the build environment of macOS computers is running on NFS because of the limited space of the hard disk on it.  
-I will reconsider attaching a hard disk and mount it on the computer which runs macOS, but I don't know if it is able to do so.  
-(Mac products are often able to ship with expensive high capacity SSDs which price is unaffordable for me by now)
-
 ## Website mirror
 
 Since GitHub Pages is slow in China, I made a mirror website using a Chinese code hosting service called Coding.
