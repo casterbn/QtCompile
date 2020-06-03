@@ -101,17 +101,17 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang||√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
-|Android|Windows 10 10.0.18363|ndk r21|arm||android-clang|√|√|
+|Android|Windows 10 10.0.19041|ndk r21b|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|CentOS 8|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
-|↑|macOS 10.15|ndk r21b|arm||android-clang|√|√|
+|↑|macOS 10.15|↑|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |WebAssembly|CentOS 8|emscripten-1.38.16|-||wasm-emscripten|√|√|
-|↑|macOS 10.15|↑|-||wasm-emscripten||√|
+|↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
 ## Qt 5.15.0 Series
 
