@@ -22,9 +22,12 @@ __THESE PACKAGE ARE PROVIDED "As is", I have no responsibility that you mess up 
 
 Thanks for The Qt Company Ltd. and the programmers of Qt for their fantastic work!!
 
-## IMPORTANT NOTES!!
+## Windows 7 and Windows 8.1 deprecation (IMPORTANT NOTES!!)
 
-SINCE 2020.1.6 NO BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WINDOWS 8.1 AND LATER.
+SINCE 2020.6.3 (Qt 5.15 release and Qt 5.9 deprecation) ONLY VS2015 AND MINGW 7.3 BUILDS SUPPORTS WINDOWS 8.1.  
+WINDOWS 10 IS MORE AND MORE POPULAR, AND RECEIVING MORE AND MORE NEW FEATURES. ONE SHOULD SWITCH TO WINDOWS 10 ASAP.
+
+SINCE 2020.1.6 (OpenSSL 1.0.2 deprecation) NO LATER BUILD WILL SUPPORT WINDOWS 8 AND EARLIER, PLEASE UPDATE TO WINDOWS 8.1 AND LATER.
 
 ## Notes for this repo
 
@@ -44,10 +47,11 @@ Please refer to the content lists in the left area.
 
 ## Update History
 ### 2020.6.4
-Upload 5.15.0 macOS host builds.  
+Upload 5.15.0 macOS host builds. (macOS host builds of 5.12.8 have compile failure, we should wait for 5.12.9)   
 Upload 5.15.0 Android builds. (macOS 10.15.5 hosted)
 
 ### 2020.6.3
+Add proprietary codecs support for Qt WebEngine for Qt 5.12.9 and 5.15.0 or later.
 Upload 5.15.0 series. (**Except macOS host builds, which encountered some issue while compiling**)  
 Use MinGW-w64 to 8.1.0 for Qt 5.15.0 series, switch the build environment of MinGW 8.1.0 to Win10.  
 Upload 5.9.9 VS2017 builds for newer VS2017 compiler.  

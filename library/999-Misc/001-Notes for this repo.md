@@ -73,7 +73,11 @@ I just noticed that Arch Linux and MSYS2 switched to zst for their package manag
 Only recent GNU tar (1.31 or later) and recent libarchive (a.k.a. bsdtar, 3.3.3 or later) directly supports .tar.zst compress method.  
 I will not use zst because the compress ratio is not as good as LZMA2(xz).
 
-## Difference of this Qt and offically distributed Qt (Updated 2020.3.6)
+## Difference of this Qt and offically distributed Qt (Updated 2020.6.7)
+
+I provide only binary tarball, which contains only compiled Qt binary for each OS.  
+It should work out of box (for Qt 5.14 or later) or work after patches to Qt (for Qt 5.13 and before).  
+I will never use online installers.
 
 There is **NO NEED TO LOGIN Qt ACCOUNT**!!! By doing this gets rid of the nonsense of "This can help optimize Qt".
 

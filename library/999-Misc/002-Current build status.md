@@ -143,6 +143,22 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 [First alpha release of Qt 6.0.0 is planned on Sep. 14th, 2020](https://lists.qt-project.org/pipermail/releasing/2020-May/002777.html).
 
+(2020/6/7: Temporary planned configuration)  
+Note: Since Microsoft dropped 32-bit OS for Windows 10 2004 and later, our Qt 6 builds will drop support for 32-bit either.  
+For 32-bit prebuilt binaries of Qt 6 for Windows and static builds for non-LTS release, please contect me directly for commerical customization.
+
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|NOT PLANNED|
+|Windows|Windows 10 10.0.19041|VS2019 16.6.0|x86_64||win32-msvc|||
+|↑|↑|↑|x86_64|-static(Full)|win32-msvc||(only for LTS releases)|
+|↑|↑|VS2017 15.9.23|arm64||win32-arm64-msvc2017|||
+|↑|↑|MinGW 8.1.0|x86_64||win32-g++|||
+|↑|↑|↑|x86_64|-static(Full)|win32-g++||(only for LTS releases)|
+|macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|||
+|↑|↑|↑|x86_64|-no-framework|macx-clang|||
+|Android|Windows 10 10.0.19041|ndk r21b|ALL||android-clang|||
+|↑|CentOS 8.1|↑|ALL||android-clang|||
+|↑|macOS 10.15|↑|ALL||android-clang|||
+|WebAssembly|Windows 10 10.0.19041|emscripten-1.39.8|-|-feature-threads|wasm-emscripten|||
+|↑|CentOS 8.1|↑|-|-feature-threads|wasm-emscripten|||
+|↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|||
