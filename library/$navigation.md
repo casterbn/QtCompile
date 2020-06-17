@@ -16,10 +16,10 @@
 - [Notes](?file=001-Past LTS Series/999-Notes "Notes")
 
 ##### 5.12 Series
-- [5.12.8 for Windows](?file=004-5.12 Series/001-5.12.8 for Windows "5.12.8 for Windows")
-- [5.12.7 for macOS](?file=004-5.12 Series/002-5.12.7 for macOS "5.12.7 for macOS")
-- [5.12.8 for Android](?file=004-5.12 Series/003-5.12.8 for Android "5.12.8 for Android")
-- [5.12.8 for WebAssembly](?file=004-5.12 Series/004-5.12.8 for WebAssembly "5.12.8 for WebAssembly")
+- [5.12.9 for Windows](?file=004-5.12 Series/001-5.12.9 for Windows "5.12.9 for Windows")
+- [5.12.9 for macOS](?file=004-5.12 Series/002-5.12.9 for macOS "5.12.9 for macOS")
+- [5.12.9 for Android](?file=004-5.12 Series/003-5.12.9 for Android "5.12.9 for Android")
+- [5.12.9 for WebAssembly](?file=004-5.12 Series/004-5.12.9 for WebAssembly "5.12.9 for WebAssembly")
 
 ##### 5.15 Series
 - [5.15.0 for Windows](?file=005-5.15 Series/001-5.15.0 for Windows "5.15.0 for Windows")
