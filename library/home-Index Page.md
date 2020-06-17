@@ -46,6 +46,10 @@ Please refer to the content lists in the left area.
 [here](?file=999-Misc/003-Current%20failures)
 
 ## Update History
+
+### 2020.6.18
+Upload 5.12.9 builds.
+
 ### 2020.6.4
 Upload 5.15.0 macOS host builds. (macOS host builds of 5.12.8 have compile failure, we should wait for 5.12.9)   
 Upload 5.15.0 Android builds. (macOS 10.15.5 hosted)
