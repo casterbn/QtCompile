@@ -1,27 +1,11 @@
 # Build Failures about the original packages
 
-## Qt WebEngine 5.12.8 cna't be built using xcode 11.4 or later
-
-See [QTBUG-83318](https://bugreports.qt.io/browse/QTBUG-83318)  
-We have to wait for 5.12.9.
-
-## Qt WebEngine 5.15.0-beta4 and later cannot be built using VS2017
-
-Reason is unknown for me by now.  
-Temporary disable the build of WebEngine for VS2017 version for now.
-
-Qt does not provide a prebuilt binary for VS2017 anymore. I have deleted the QtWebEngine in VS2017 builds of Qt 5.15.0.
-
 ## Qt 5.12 wasm builds can't built with OpenSSL
 
 Both `qsslsocket_opensslpre11.cpp` and `qsslsocket_openssl11.cpp` includes `qlibrary.h` which is not usable in wasm platform.  
 Since `-openssl` and `-openssl-linked` both use this file, so we can only use `-no-ssl`.......
 
-I didn't try with Qt 5.14 and 5.15 series.
-
-## Some of default compressed package is detected as malware by SF.net
-
-Recompress it by hand solves the problem.
+I didn't try with Qt 5.15 series.
 
 ## QDoc after Qt 5.12 cannot use static linked clang when using MSVC
 
@@ -38,7 +22,7 @@ I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
 ~~`cannot find library -lc++`~~
 
-### Qt 5.9.9 ~~and~~ (_Resolved in Qt 5.12.7_) ~~5.12.6~~ cannot be compiled using xcode 11
+### (_Abandoned_) Qt 5.9.9 ~~and~~ (_Resolved in Qt 5.12.7_) ~~5.12.6~~ cannot be compiled using xcode 11
 
 Some parts don't compile.  
 Static `lite` version and host tools compiles, the cross compiled version compiles.  
@@ -62,12 +46,12 @@ I ~~will use~~ used xcode 11 for compiling 5.12.7. QtWebEngine has successfully 
 
 ### (_Resolved_) ~~QtWebEngine does not compile on 5.15.0 beta versions on Windows platforms~~
 
-It was because of the 260-character limitation on Windows.
+It was because of the 260-character limitation on Windows.  
 Change the extract path on Windows solves this problem.
 
-### (_Resolved_) ~~Qt 5.14.1 can't be compiled using NDK r21~~
+### (_Resolved in Qt 5.14.2_) ~~Qt 5.14.1 can't be compiled using NDK r21~~
 
-~~It is said that~~ Qt 5.14.2 resolved this issue.
+~~It is said that Qt 5.14.2 resolved this issue.~~
 
 ### (_Reason is that I used NFS on macOS machines_) ~~All Qt Builds are broken on macOS 10.15.4 Update and xcode 11.4~~
 
@@ -77,3 +61,19 @@ Change the extract path on Windows solves this problem.
 ### (_Replaced by "All Qt Builds are broken on macOS 10.15.4 Update and xcode 11.4"_) ~~macOS version of QtWebEngine 5.14.2 does not compile~~
 
 ~~gn compile failed on macOS using xcode 11.4.~~
+
+### (_Resolved in Qt 5.12.9_) ~~Qt WebEngine 5.12.8 cna't be built using xcode 11.4 or later~~
+
+~~See [QTBUG-83318](https://bugreports.qt.io/browse/QTBUG-83318)~~  
+~~We have to wait for 5.12.9.~~
+
+### (_Abandoned_) Qt WebEngine 5.15.0-beta4 and later cannot be built using VS2017
+
+Reason is unknown for me by now.  
+Temporary disable the build of WebEngine for VS2017 version for now.
+
+Qt does not provide a prebuilt binary for VS2017 anymore. I have deleted the QtWebEngine in VS2017 builds of Qt 5.15.0.
+
+### (_Does not happen recently_) ~~Some of default compressed package is detected as malware by SF.net~~
+
+~~Recompress it by hand solves the problem.~~
