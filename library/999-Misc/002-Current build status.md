@@ -72,11 +72,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|arm64||
 |1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.6.2|x86||
 |1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.6.2|x86_64||
-|1.1.1g|Android|CentOS 8.1|ndk r21b|arm|android-21, -static|
-|1.1.1g|Android|CentOS 8.1|ndk r21b|arm64|android-21, -static|
-|1.1.1g|Android|CentOS 8.1|ndk r21b|x86|android-21, -static|
-|1.1.1g|Android|CentOS 8.1|ndk r21b|x86_64|android-21, -static|
-|1.1.1g|Android|CentOS 8.1|ndk r21b|ALL|android-21, -static|
+|1.1.1g|Android|CentOS 8.2|ndk r21d|arm|android-21, -static|
+|1.1.1g|Android|CentOS 8.2|ndk r21d|arm64|android-21, -static|
+|1.1.1g|Android|CentOS 8.2|ndk r21d|x86|android-21, -static|
+|1.1.1g|Android|CentOS 8.2|ndk r21d|x86_64|android-21, -static|
+|1.1.1g|Android|CentOS 8.2|ndk r21d|ALL|android-21, -static|
 
 ## Qt 5.12.9 Series (Previous LTS release)
 
@@ -101,7 +101,7 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|_Compile failure_|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|_Compile failure_|√|
 |↑|↑|↑|x86_64|-static|macx-clang|Won't upload, only used in QQtPatcher|√|
-|Android|Windows 10 10.0.19041|ndk r21b|arm||android-clang|√|√|
+|Android|Windows 10 10.0.19041|ndk r21d|arm||android-clang|√|√|
 |↑|↑|↑|arm64||android-clang|√|√|
 |↑|↑|↑|x86||android-clang|√|√|
 |↑|CentOS 8.2|↑|arm||android-clang|√|√|
@@ -132,11 +132,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |↑|↑|↑|x86_64|-static(Full)|win32-g++|√|√|
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|√|√|
 |↑|↑|↑|x86_64|-no-framework|macx-clang|√|√|
-|Android|Windows 10 10.0.19041|ndk r21b|ALL||android-clang|√|√|
-|↑|CentOS 8.1|↑|ALL||android-clang|√|√|
+|Android|Windows 10 10.0.19041|ndk r21d|ALL||android-clang|√|√|
+|↑|CentOS 8.2|↑|ALL||android-clang|√|√|
 |↑|macOS 10.15|↑|ALL||android-clang|√|√|
 |WebAssembly|Windows 10 10.0.19041|emscripten-1.39.8|-|-feature-threads|wasm-emscripten|√|√|
-|↑|CentOS 8.1|↑|-|-feature-threads|wasm-emscripten|√|√|
+|↑|CentOS 8.2|↑|-|-feature-threads|wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|√|√|
 
 ## Qt 6.0.0 Series
@@ -144,21 +144,21 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 [First alpha release of Qt 6.0.0 is planned on Sep. 14th, 2020](https://lists.qt-project.org/pipermail/releasing/2020-May/002777.html).
 
 (2020/6/7: Temporary planned configuration)  
-Note: Since Microsoft dropped 32-bit OS for Windows 10 2004 and later, our Qt 6 builds will drop support for 32-bit either.  
-For 32-bit prebuilt binaries of Qt 6 for Windows and static builds for non-LTS release, please contect me directly for commerical customization.
+Note: Since Microsoft dropped 32-bit Windows for Windows 10 2004 and later, our Qt 6 builds will drop support for 32-bit Windows either.  
+If there is need of 32-bit prebuilt binaries of Qt 6 for Windows and static builds for non-LTS release, please contect me directly for commerical customization.
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
-|Windows|Windows 10 10.0.19041|VS2019 16.6.0|x86_64||win32-msvc|||
+|Windows|Windows 10 10.0.xxxxx|VS2019 16.x.x|x86_64||win32-msvc|||
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc||(only for LTS releases)|
-|↑|↑|VS2017 15.9.23|arm64||win32-arm64-msvc2017|||
+|↑|↑|VS2017 15.x.x|arm64||win32-arm64-msvc2017|||
 |↑|↑|MinGW 8.1.0|x86_64||win32-g++|||
 |↑|↑|↑|x86_64|-static(Full)|win32-g++||(only for LTS releases)|
 |macOS|macOS 10.15|AppleClang 11.0|x86_64|-framework|macx-clang|||
 |↑|↑|↑|x86_64|-no-framework|macx-clang|||
 |Android|Windows 10 10.0.19041|ndk r21b|ALL||android-clang|||
-|↑|CentOS 8.1|↑|ALL||android-clang|||
+|↑|CentOS 8.x|↑|ALL||android-clang|||
 |↑|macOS 10.15|↑|ALL||android-clang|||
-|WebAssembly|Windows 10 10.0.19041|emscripten-1.39.8|-|-feature-threads|wasm-emscripten|||
-|↑|CentOS 8.1|↑|-|-feature-threads|wasm-emscripten|||
+|WebAssembly|Windows 10 10.0.xxxxx|emscripten-1.39.8|-|-feature-threads|wasm-emscripten|||
+|↑|CentOS 8.x|↑|-|-feature-threads|wasm-emscripten|||
 |↑|macOS 10.15|↑|-|-feature-threads|wasm-emscripten|||

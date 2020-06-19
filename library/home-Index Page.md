@@ -47,6 +47,10 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.6.19
+Upload Android NDK to r21d.
+Recompile all android packages using new NDK.
+
 ### 2020.6.18
 Upload 5.12.9 builds.
 
