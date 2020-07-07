@@ -1,5 +1,9 @@
 # Previous Histories
 
+## 2020.5.18
+Upload 5.15.0-rc2 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)  
+Update Win10 to 10.0.19041(2004)
+
 ## 2020.4.25
 Upload 5.15.0-beta4 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)
 

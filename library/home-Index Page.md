@@ -47,6 +47,9 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.7.7
+Upload all artifacts, also to Github release in addition to SourceForge.
+
 ### 2020.6.19
 Upload Android NDK to r21d.
 Recompile all android packages using new NDK.
@@ -71,10 +74,6 @@ Since Qt 5.9 series has reached EOL, there will be no further Qt 5.9 builds.
 i.e., this build is the last build of these packages.  
 The build script and environment of Qt 5.9 series has been destructed.
 
-### 2020.5.18
-Upload 5.15.0-rc2 series. (**All macOS version, including cross builds, are not uploaded because of broken environment**)  
-Update Win10 to 10.0.19041(2004)
-
-### Before May. 2020
+### Before Jun. 2020
 
 [here](?file=999-Misc/004-Histories)

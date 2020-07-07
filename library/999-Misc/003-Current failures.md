@@ -12,7 +12,7 @@ I didn't try with Qt 5.15 series.
 It uses "libclang_static.lib" but clang don't provide this one.  
 I have decided not provide LLVM-based qdoc until I find a way to static link it.
 
-## Resolved failures
+## Resolved and abandoned failures
 
 ### (_Resolved_) ~~Qt 5.12 with WebEngine can only be built by hand~~
 
@@ -72,7 +72,7 @@ Change the extract path on Windows solves this problem.
 Reason is unknown for me by now.  
 Temporary disable the build of WebEngine for VS2017 version for now.
 
-Qt does not provide a prebuilt binary for VS2017 anymore. I have deleted the QtWebEngine in VS2017 builds of Qt 5.15.0.
+Qt does not provide a prebuilt binary for VS2017 anymore. I have skipped the QtWebEngine in VS2017 builds of Qt 5.15.0.
 
 ### (_Does not happen recently_) ~~Some of default compressed package is detected as malware by SF.net~~
 
