@@ -65,13 +65,13 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |1.1.1g|Windows|Windows 8.1 Update|VS2015 Update 3|x86_64||
 |1.1.1g|Windows|Windows 8.1 Update|MinGW 7.3.0|x86||
 |1.1.1g|Windows|Windows 8.1 Update|MinGW 7.3.0|x86_64||
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|x86||
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|x86|-static|
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|x86_64||
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|x86_64|-static|
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.24|arm64||
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.6.2|x86||
-|1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.6.2|x86_64||
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.27|x86||
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.27|x86|-static|
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.27|x86_64||
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.27|x86_64|-static|
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2017 15.9.27|arm64||
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.7.3|x86||
+|1.1.1g|Windows|Windows 10 10.0.19041|VS2019 16.7.3|x86_64||
 |1.1.1g|Android|CentOS 8.2|ndk r21d|arm|android-21, -static|
 |1.1.1g|Android|CentOS 8.2|ndk r21d|arm64|android-21, -static|
 |1.1.1g|Android|CentOS 8.2|ndk r21d|x86|android-21, -static|
@@ -113,16 +113,16 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 |WebAssembly|CentOS 8.2|emscripten-1.38.16|-||wasm-emscripten|√|√|
 |↑|macOS 10.15|↑|-||wasm-emscripten|√|√|
 
-## Qt 5.15.0 Series (Current LTS release for commerical version only)
+## Qt 5.15.1 Series (Current LTS release for commerical version only)
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|
 |Windows|Windows 8.1 Update|VS2015 Update 3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
-|↑|Windows 10 10.0.19041|VS2017 15.9.23|x86||win32-msvc|√|√|
+|↑|Windows 10 10.0.19041|VS2017 15.9.27|x86||win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|arm64||win32-arm64-msvc2017|√|√|
-|↑|↑|VS2019 16.6.0|x86||win32-msvc|√|√|
+|↑|↑|VS2019 16.7.3|x86||win32-msvc|√|√|
 |↑|↑|↑|x86|-static(Full)|win32-msvc|√|√|
 |↑|↑|↑|x86_64||win32-msvc|√|√|
 |↑|↑|↑|x86_64|-static(Full)|win32-msvc|√|√|
@@ -141,11 +141,11 @@ MinGW builds is "-shared-and-static" so no need to build a seprate static versio
 
 ## Qt 6.0.0 Series
 
-[First alpha release of Qt 6.0.0 is planned on Sep. 14th, 2020](https://lists.qt-project.org/pipermail/releasing/2020-May/002777.html).
+First alpha release of Qt 6.0.0 [is planned on Sep. 14th, 2020](https://lists.qt-project.org/pipermail/releasing/2020-May/002777.html), but [may be delayed due to bugreports](https://lists.qt-project.org/pipermail/releasing/2020-September/002794.html).
 
 (2020/6/7: Temporary planned configuration)  
-Note: Since Microsoft dropped 32-bit Windows for Windows 10 2004 and later, our Qt 6 builds will drop support for 32-bit Windows either.  
-If there is need of 32-bit prebuilt binaries of Qt 6 for Windows and static builds for non-LTS release, please contect me directly for commerical customization.
+<b>Note: Since Microsoft dropped 32-bit Windows for Windows 10 2004 and later, our Qt 6 builds will drop support for 32-bit Windows either.  
+If there is need of 32-bit prebuilt binaries of Qt 6 for Windows and static builds for non-LTS release, please contect me directly for commerical customization.</b>
 
 | Platform | Build Host |  Compiler Version | Architecture | Variant | mkspecs | Uploaded | Configuration |
 |-|

@@ -47,33 +47,14 @@ Please refer to the content lists in the left area.
 
 ## Update History
 
+### 2020.9.12
+Upload 5.15.1 builds.
+macOS is updated to 10.15.6 (19G2021)
+VS2017/2019 are updated to the latest version, which is 15.9.27/16.7.3.
+
 ### 2020.7.7
 Upload all artifacts, also to Github release in addition to SourceForge.
 
-### 2020.6.19
-Upload Android NDK to r21d.
-Recompile all android packages using new NDK.
-
-### 2020.6.18
-Upload 5.12.9 builds.
-
-### 2020.6.4
-Upload 5.15.0 macOS host builds. (macOS host builds of 5.12.8 have compile failure, we should wait for 5.12.9)   
-Upload 5.15.0 Android builds. (macOS 10.15.5 hosted)
-
-### 2020.6.3
-Add proprietary codecs support for Qt WebEngine for Qt 5.12.9 and 5.15.0 or later.
-Upload 5.15.0 series. (**Except macOS host builds, which encountered some issue while compiling**)  
-Use MinGW-w64 to 8.1.0 for Qt 5.15.0 series, switch the build environment of MinGW 8.1.0 to Win10.  
-Upload 5.9.9 VS2017 builds for newer VS2017 compiler.  
-Upload 5.12.8 WebAssembly builds for newer emsdk definition.  
-Upload 5.12.8 Android builds for NDK r21b.  
-Remove 5.14 series except macOS ones. (macOS ones will be deleted once 5.15 finishes compiling)
-
-Since Qt 5.9 series has reached EOL, there will be no further Qt 5.9 builds.  
-i.e., this build is the last build of these packages.  
-The build script and environment of Qt 5.9 series has been destructed.
-
-### Before Jun. 2020
+### Before Jul. 2020
 
 [here](?file=999-Misc/004-Histories)
